@@ -1,0 +1,466 @@
+@charset "UTF-8";
+
+/* CSS Document */
+a:link {
+color: #000;
+text-decoration: none;
+}
+@font-face {
+font-family: "RMDEVA";
+font-weight: bold;
+font-style: normal;
+src: url("fonts/RMDEVA.OTF");
+}
+@font-face {
+font-family: "Gaura-Times";
+font-weight: bold;
+font-style: normal;
+src: url("fonts/gtr.ttf");
+}
+@font-face {
+font-family: "Gaura-Times";
+font-weight: normal;
+font-style: italic;
+src: url("fonts/gtr.ttf");
+}
+@font-face {
+font-family: "Gaura-Times";
+font-weight: normal;
+font-style: normal;
+src: url("fonts/gtr.ttf");
+}
+
+a:link{
+COLOR:#000;
+text-decoration:none;
+}
+/*HEADERS*/
+strong, b
+{
+font-weight: bold;
+}
+
+ 
+em, i
+{
+font-style: italic;
+}
+
+p
+{
+margin-top: 0em;
+}
+
+body
+{
+font-weight: normal;
+font-style: normal;
+margin: 0;
+}
+
+.dev-uvaca {
+font-family: "RMDEVA";
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+font-size: small;
+line-height: 1.6em;
+page-break-after:avoid;
+}
+.devanagari {
+font-family: "RMDEVA";
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 1em;
+font-size: small;
+line-height: 1.6em;
+}
+
+.book-title,
+.chapter-head,
+.canto,
+.ch-number,
+.hide,
+.special,
+.chaptno,
+.textno
+{
+display: none;
+}
+
+/*CHAPTERS*/
+.chapter{
+font-size:0.8em;
+font-weight:lighter;
+text-align:center;
+padding-top:2em;
+margin-bottom:0.2em;
+letter-spacing:0.1em;
+/* line-height: 1.1em; */
+-webkit-hyphens: none;
+}
+.ch-title, .chapter-title{
+text-align:center;
+margin-bottom:2.5em;
+font-size:1.5em;
+padding-top:0.3em;
+/* line-height: 1.1em; */
+margin-left: 2em;
+margin-right: 2em;
+font-weight: bold;
+-webkit-hyphens: none;
+}
+.ch-title-fb{
+font-size:1.5em;
+text-align:center;
+margin-top:2em;
+margin-bottom:1.5em;
+/* line-height: 1.1em; */
+margin-left: 2em;
+margin-right: 2em;
+font-weight: bold;
+-webkit-hyphens: none;
+}
+.text, .texts{
+text-align:center;
+margin-top:3em;
+margin-bottom:.5em;
+letter-spacing:1px;
+font-size:smaller;
+font-weight:bold;
+-webkit-hyphens: none;
+}
+.sans-uvaca{
+font-style:italic;
+margin-right:auto;
+margin-left:auto;
+/*display:table;*/
+text-align:center;
+margin-bottom:1em;
+-webkit-hyphens: none;
+}
+.sans, .sanskrit{
+font-style:italic;
+margin-right:auto;
+margin-left:auto;
+/*display:table;*/
+text-align:center;
+margin-bottom:1em;
+-webkit-hyphens: none;
+}
+.word-by-word, .wbw{
+}
+
+.verse-uvaca{
+margin-right:auto;
+margin-left:auto;
+/*display:table;*/
+text-align:center;
+margin-top:1em;
+font-style:italic;
+margin-bottom:-1em;
+-webkit-hyphens: none;
+}
+.verse-in-purp,.bengali{
+margin-top:1em;
+/*display:table;*/
+text-align:center;
+margin-right:auto;
+margin-left:auto;
+font-style:italic;
+-webkit-hyphens: none;
+}
+.verse-first{
+/*display:table;*/
+text-align:center;
+margin-right:auto;
+margin-left:auto;
+font-style:italic;
+-webkit-hyphens: none;
+}
+.verse-small{
+margin-top:1em;
+/*display:table;*/
+text-align:center;
+margin-right:auto;
+margin-left:auto;
+font-style:italic;
+font-size:small;
+-webkit-hyphens: none;
+}
+.verse-ref, .verse-r{
+text-align:right;
+-webkit-hyphens: none;
+}
+.ref{
+text-align:right;
+margin-top:1em;
+margin-right:1em;
+-webkit-hyphens: none;
+}
+.sign, .signature{
+text-align: left;
+text-align:-webkit-left;
+margin-top: 0.5em;
+-webkit-hyphens: none;
+}
+.sign-ku{
+text-align: left;
+text-align:-webkit-left;
+margin-top: 0.5em;
+margin-left: 5em;
+-webkit-hyphens: none;
+}
+
+.trans, .translation{
+font-weight:bold;
+margin-top: 1em;
+}
+.purp-title, .purp-1-line{
+text-align:center;
+margin-top:1em;
+margin-bottom:.5em;
+letter-spacing:0.1em;
+font-size:small;
+}
+.purp, .purport, .end, .keep
+{
+margin-top:1em;
+}
+.purport-ku
+{
+margin-top:1.5em;
+}
+.small-caps
+{
+font-size:smaller;
+letter-spacing: 1px;
+}
+.para, .purp-para
+{
+text-indent: 1.5em;
+}
+.para-no-indent
+{
+}
+.dc,
+.dedication
+{
+margin-top: 5em;
+text-align: center;
+-webkit-hyphens: none;
+}
+.gl-body, .glossary{
+padding-left:2em;
+text-indent:-2em;
+text-align: left;
+text-align:-webkit-left;
+-webkit-hyphens: none;
+}
+.gl-body-1, .glossary1, .glossary-1{
+padding-left:2em;
+text-indent:-2em;
+margin-top:1em;
+}
+.gloss-letter
+{
+text-align: center;
+margin-top: 1.5em;
+margin-bottom: 0.5em;
+}
+.sp-signature {
+text-align: left;
+text-align:-webkit-left;
+margin-top: 0.5em;
+page-break-before: avoid;
+-webkit-hyphens: none;
+}
+.head-text
+{
+margin-bottom: 1em;
+}
+.qv-body, .xs-body, .rf-body{
+padding-left:2em;
+text-indent:-2em;
+text-align: left;
+text-align:-webkit-left;
+margin-bottom: .25em;
+}
+.qv-body-1, .xs-body-1, .rf-body-1{
+padding-left:2em;
+text-indent:-2em;
+margin-top:1.5em;
+margin-bottom: .5em;
+}
+.tc-chapter {
+text-align: left;
+text-align:-webkit-left;
+margin-top: 1em;
+margin-bottom: 3px;
+-webkit-hyphens: none;
+}
+
+.tc-ch-name {
+text-align: left;
+text-align:-webkit-left;
+margin-bottom: 3px;
+font-weight: bold;
+-webkit-hyphens: none;
+}
+
+.tc-body {
+text-align: left;
+text-align:-webkit-left;
+margin-left: 2em;
+margin-top: 0em;
+font-size: 1em;
+-webkit-hyphens: none;
+}
+.tc-back-1
+{
+text-align: left;
+text-align:-webkit-left;
+margin-top: 1em;
+font-size: 1em;
+-webkit-hyphens: none;
+}
+.pg-header
+{
+text-align: center;
+letter-spacing: 1px;
+margin-top: 1em;
+margin-bottom: 0.5em;
+-webkit-hyphens: none;
+}
+.pg-header-1
+{
+text-align: left;
+text-align:-webkit-left;
+margin-top: 1em;
+margin-bottom: 0.5em;
+-webkit-hyphens: none;
+}
+.pg-l-top, .pg-r-top
+{
+text-align: left;
+text-align:-webkit-left;
+margin-top: 1em;
+-webkit-hyphens: none;
+}
+.pg-l, .pg-r{
+padding-left:2em;
+text-indent:-2em;
+text-align: left;
+text-align:-webkit-left;
+-webkit-hyphens: none;
+}
+.cr-readers {
+text-align: center;
+font-size: smaller;
+margin-top: 2em;
+margin-left: 3em;
+margin-right: 3em;
+-webkit-hyphens: none;
+}
+.bl-other, .bl-hdg
+{
+text-align: center;
+margin-top: 2em;
+margin-bottom: 1em;
+font-size: smaller;
+margin-left: 3em;
+margin-right: 3em;
+-webkit-hyphens: none;
+}
+.bl-book
+{
+text-align: center;
+font-size: smaller;
+-webkit-hyphens: none;
+}
+.bl-purport
+{
+text-align: center;
+font-size: smaller;
+margin-top: 2em;
+margin-left: 3em;
+margin-right: 3em;
+-webkit-hyphens: none;
+}
+.tp-title
+{
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 4em;
+-webkit-hyphens: none;
+}
+.tp-title img
+{
+width: 100%;
+}
+.tp-logo{
+width: 45%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2em;
+}
+.tp-logo img{
+width: 100%;
+}
+.bg-logo{
+width: 25%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2em;
+}
+.bg-logo img{
+width: 100%;
+}
+.sp-signature{
+width: 70%;
+text-align: left;
+text-align:-webkit-left;
+margin-top: 2em;
+}
+.sp-signature img{
+width: 100%;
+}
+.tp-hdg
+{
+text-align: center;
+font-size: 1em;
+font-weight: bold;
+line-height: 1.2em;
+margin-top: 2em;
+-webkit-hyphens: none;
+}
+.tp-acarya
+{
+text-align: center;
+font-size: smaller;
+line-height: 1.2em;
+-webkit-hyphens: none;
+}
+.tp-with
+{
+text-align: center;
+font-style: italic;
+line-height: 1.2em;
+margin-top: 2em;
+margin-left: 3em;
+margin-right: 3em;
+-webkit-hyphens: none;
+}
+.tp-se
+{
+text-align: center;
+font-style: italic;
+line-height: 1.2em;
+margin-top: 2em;
+margin-left: 3em;
+margin-right: 3em;
+-webkit-hyphens: none;
+}
+

@@ -1,0 +1,479 @@
+@charset "UTF-8";
+/* CSS Document */
+a:link {
+color: #000;
+text-decoration: none;
+}
+@font-face {
+font-family: "RMDEVA";
+font-weight: bold;
+font-style: normal;
+src: url("fonts/RMDEVA.OTF");
+}
+@font-face {
+font-family: "Gaura-Times";
+font-weight: bold;
+font-style: normal;
+src: url("fonts/U_TMS_B_.ttf");
+}
+@font-face {
+font-family: "Gaura-Times";
+font-weight: normal;
+font-style: italic;
+src: url("fonts/U_TMS__I.ttf");
+}
+@font-face {
+font-family: "Gaura-Times";
+font-weight: normal;
+font-style: normal;
+src: url("fonts/U_TMS___.ttf");
+}
+.dev-uvaca {
+font-family: "RMDEVA";
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+font-size: small;
+line-height: 1.6em;
+page-break-after:avoid;
+}
+.devanagari {
+font-family: "RMDEVA";
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 1em;
+font-size: small;
+line-height: 1.6em;
+}
+strong, b {
+font-family: "Gaura-Times";
+font-weight : bold;
+}
+ 
+em, i {
+font-family: "Gaura-Times";
+font-style: italic;
+}
+body {
+font-weight: normal;
+font-style: normal;
+padding: 10px;
+color: #000000;
+font-family: "Gaura-Times";
+margin : 0;
+oeb-column-number : 1;
+}
+.book-title {
+display: none;
+}
+.chapter-head {
+display: none;
+}
+.canto {
+display: none;
+}
+.ch-number {
+display: none;
+}
+.text-number {
+display: none;
+}
+.chapter {
+font-size: medium;
+font-weight: lighter;
+text-align: center;
+margin-top: 4em;
+margin-bottom: 1em;
+letter-spacing: 0.15em;
+}
+.ch-title {
+text-align: center;
+margin-bottom: 1.5em;
+font-size: 2em;
+margin-top: 1em;
+font-weight: bold;
+page-break-after: always;
+}
+.ch-title-fb, .tc-title, .app, .ds-title, .ku-title, .nt-title {
+font-size: 2em;
+font-weight: bold;
+text-align: center;
+margin-top: 2em;
+margin-bottom: 1em;
+}
+.text {
+font-weight: bold;
+text-align: center;
+padding-top: 2em;
+margin-bottom: 1em;
+page-break-after: avoid;
+}
+.sans-uvaca {
+font-style: italic;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+page-break-after:avoid;
+}
+.sans {
+font-style: italic;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+margin-bottom: 1em;
+}
+.verse-uvaca {
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+margin-top: 1em;
+font-style: italic;
+margin-bottom: -1em;
+page-break-after:avoid;
+}
+.verse-in-purp {
+margin-top: 1em;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+font-style: italic;
+orphans: 2;
+widows: 2;
+}
+.verse-small {
+font-size: 0.78em;
+margin-top: 1em;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+font-style: italic;
+
+}
+.verse-ref {
+text-align: right;
+}
+.special {
+display: none;
+}
+.trans-title {
+text-align: center;
+margin-top: 1em;
+margin-bottom: .5em;
+letter-spacing: 0.1em;
+font-size: small;
+font-weight: bold;
+page-break-after:avoid;
+}
+.purp-title, .purp-title-1 {
+text-align: center;
+margin-top: 1em;
+margin-top: 1em;
+margin-bottom: .5em;
+letter-spacing: 0.1em;
+font-size: small;
+font-weight: bold;
+page-break-after:avoid;
+}
+.purp {
+margin-top: 1em;
+}
+.para {
+text-indent: 2em
+}
+.ch-end {
+font-style: normal;
+margin-top: 1em;
+}
+.bl-bls {
+text-align: center;
+margin-top: 2em;
+}
+.bl-book {
+font-style: italic;
+text-align: center;
+}
+.bl-other, .bl-hdg {
+font-size: large;
+font-weight: bold;
+text-align: center;
+margin-top: 1em;
+margin-bottom: .25em;
+}
+.cr-body {
+text-align: center;
+font-size:.9em;
+margin: 1em;
+}
+.cr-body1 {
+text-align: center;
+font-size:.9em;
+padding-top: 6.5em;
+}
+.cr-readers {
+text-align: center;
+font-size:.9em;
+margin-top: 2em;
+}
+.cr-printer {
+text-align: center;
+font-size:.9em;
+margin-top: 1em;
+}
+.dc-body {
+font-style: italic;
+text-align: center;
+margin-top: 6em;
+}
+.ds-text {
+margin-bottom: 1em;
+}
+.gl-letter {
+text-align: center;
+margin-top: 1em;
+margin-bottom: 0.25em;
+font-weight: bold;
+page-break-after:avoid;
+}
+.ku-purp {
+margin-top: 1em;
+}
+.ku-sign {
+font-style: italic;
+margin-left: 4em;
+margin-top: 0.5em;
+margin-bottom: 1.5em;
+page-break-before:avoid;
+}
+/* PG */
+.pg-header-1{
+padding-top:1.5em;
+margin-bottom:.5em;
+text-align:left;
+font-size:large;
+page-break-after:avoid;
+clear:both;
+}
+.pg-header-1-1{
+margin-top:2em;
+margin-bottom:-1em;
+text-align:left;
+font-size:large;
+page-break-after:avoid;
+}
+.pg-header-2{
+margin-top:2em;
+margin-bottom:.5em;
+text-align:left;
+page-break-after:avoid;
+}
+span.pg-vowel{
+line-height:1.7em;
+width:1.3em;
+display:inline-block;
+}
+span.deva-vowel{
+font-family:"RMDEVA";
+line-height:1.7em;
+width:1em;
+display:inline-block;
+text-align:right;
+padding-right:.3em;
+}
+.nowrap{
+float:left;
+}
+.clear-both{
+clear:both;
+}
+.blank{
+color: #fff;
+}
+
+span.deva-v{
+font-family:"RMDEVA";
+line-height:1.7em;
+width:1.5em;
+display:inline-block;
+text-align:right;
+padding-right:.3em;
+}
+span.deva-virama{
+font-family:"RMDEVA";
+}
+span.deva-pg {
+font-family: "RMDEVA";
+}
+span.pg-cons-title-1{
+line-height:1.7em;
+display:inline-block;
+float:left;
+width:6em;
+}
+span.pg-cons-title{
+line-height:2em;
+display:inline-block;
+float:left;
+
+width:6em;
+}
+span.pg-cons{
+line-height:1.7em;
+width:1.6em;
+text-align:left;
+display:inline-block;
+}
+span.deva-cons{
+font-family:"RMDEVA";
+line-height:1.5em;
+width:.8em;
+display:inline-block;
+text-align:right;
+padding-right:.3em;
+}
+span.pg-eg{
+line-height:2em;
+width:1.6em;
+display:inline-block;
+}
+span.pg-number{
+line-height:1.7em;
+width:2.5em;
+display:inline-block;
+}
+span.deva-number{
+font-family:"RMDEVA";
+line-height:1.7em;
+width:0.8em;
+display:inline-block;
+}
+.pg-expl{
+text-align:left;
+padding-top:1em;
+margin-bottom:0.25em;
+page-break-after:avoid;
+}
+.pg-expl-virama{
+text-align:left;
+margin-top:1em;
+margin-bottom:0.25em;
+page-break-after:avoid;
+}
+/* end of PG */
+.xi-letter {
+text-align: center;
+margin-top: 1em;
+margin-bottom: 0.25em;
+font-weight: bold;
+page-break-after:avoid;
+}
+.xi-head-text, .xs-head-text {
+margin-bottom: 1em;
+}
+.xi-letter1 {
+text-align: center;
+margin-top: 1em;
+margin-bottom: 0.25em;
+page-break-after:avoid;
+}
+.xi-level-0 {
+font-weight: normal;
+}
+.xi-level-1 {
+text-align: left;
+margin-left: 1.5em;
+font-weight: normal;
+}
+.xi-level-2 {
+text-align: left;
+margin-left: 3em;
+font-weight: normal;
+}
+.xs-body-1 {
+margin-top: 1em;
+}
+.qv-body-1 {
+margin-top: 1em;
+}
+.rf-body-1 {
+margin-top: 1em;
+}
+.sp-signature {
+text-align: left;
+margin-top: 0.5em;
+page-break-before:avoid;
+}
+.image2 {
+text-align: center;
+}
+.cv {
+text-align: center;
+padding: 0;
+}
+.tp {
+text-align: center;
+padding: 0;
+margin-top: -1.5em;
+}
+.tp-logo {
+text-align: center;
+padding-top: 1em;
+}
+.tp-logo img {
+}
+.tp-deva {
+font-family: "RMDEVA";
+font-size: x-large;
+text-align: center;
+margin-top: 1em;
+}
+.tp-title {
+font-size: 2.5em;
+font-weight: bold;
+text-align: center;
+margin-top:-1.1em;
+}
+.ht-deva {
+font-family: "RMDEVA";
+font-size: large;
+text-align: center;
+margin-top: 5em;
+}
+.ht-title {
+font-size: 1.5em;
+font-weight: bold;
+text-align: center;
+margin-top: 0.8em;
+}
+.tp-se {
+text-align: center;
+margin-top: 1em;
+}
+.tp-rev {
+text-align: center;
+margin: 0.5em;
+}
+.tp-with {
+margin-top: 0.5em;
+text-align: center;
+}
+.tp-by {
+text-align: center;
+margin-top: 1em;
+}
+.tp-hdg {
+text-align: center;
+margin-top: 0;
+font-size: 1.2em;
+}
+.tp-acarya {
+font-size: x-small;
+text-align: center;
+margin-bottom: 1em;
+}
+.tp-bbt {
+font-size: x-small;
+letter-spacing: 0.1em;
+text-align: center;
+margin-top: 2px;
+}
