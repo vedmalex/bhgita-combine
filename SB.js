@@ -10,7 +10,7 @@ function russian_chapter(filename) {
   });
   $('.small-caps').remove();
   var alldivs = $('div');
-  var chapter = {};
+  var chapter = { texts: [] };
   var index = 0;
   var text;
   var purportPara;
@@ -34,11 +34,13 @@ function russian_chapter(filename) {
           .text()
           .match(/ТЕКСТЫ* (\d{1,2})(–(\d{1,2})){0,1}/);
 
+        text = {};
         if (txts[3]) {
-          text = chapter[txts[1] + '-' + txts[3]] = {};
+          text.text = txts[1] + '-' + txts[3];
         } else {
-          text = chapter[txts[1]] = {};
+          text.text = txts[1];
         }
+        chapter.texts.push(text);
         text.index = index++;
 
         purportPara = 0;
