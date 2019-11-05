@@ -11,6 +11,7 @@ function russian_chapter(filename) {
   $('.small-caps').remove();
   var alldivs = $('div');
   var chapter = {};
+  var index = 0;
   var text;
   var purportPara;
 
@@ -29,11 +30,17 @@ function russian_chapter(filename) {
         chapter.number = $(item).text();
         break;
       case 'text':
-        text = chapter[
-          $(item)
-            .text()
-            .match(/ТЕКСТЫ* (\d{1,2})/)[1]
-        ] = {};
+        var txts = $(item)
+          .text()
+          .match(/ТЕКСТЫ* (\d{1,2})(–(\d{1,2})){0,1}/);
+
+        if (txts[3]) {
+          text = chapter[txts[1] + '-' + txts[3]] = {};
+        } else {
+          text = chapter[txts[1]] = {};
+        }
+        text.index = index++;
+
         purportPara = 0;
         break;
       // case 'texts':
