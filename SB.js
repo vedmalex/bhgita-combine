@@ -6,7 +6,7 @@ function russian_chapter(filename) {
   var file = fs.readFileSync(filename).toString();
   var $ = dom.load(file, {
     normalizeWhitespace: true,
-    xmlMode: true,
+    xmlMode: true
   });
   $('.small-caps').remove();
   var alldivs = $('div');
@@ -27,7 +27,7 @@ function russian_chapter(filename) {
           .text();
         break;
       case 'chaptno':
-        chapter.number = $(item).text();
+        chapter.number = parseInt($(item).text(), 10);
         break;
       case 'text':
         var txts = $(item)
@@ -36,9 +36,11 @@ function russian_chapter(filename) {
 
         text = {};
         if (txts[3]) {
-          text.text = txts[1] + '-' + txts[3];
+          text.name = txts[1] + '-' + txts[3];
+          text.text = [parseInt(txts[1], 10), parseInt(txts[3], 10)];
         } else {
-          text.text = txts[1];
+          text.text = [parseInt(txts[1], 10)];
+          text.name = txts[1];
         }
         chapter.texts.push(text);
         text.index = index++;
@@ -72,19 +74,16 @@ function russian_chapter(filename) {
               .html(br)
               .text()
               .trim();
-          }),
+          })
         );
         break;
       case 'word-by-word':
-        text.wbw = {};
         var wbwList = $(item)
           .text()
           .split(';');
-        wbwList.forEach(function(item, index) {
-          text.wbw[index + 1] = item.split('—').map(function(item) {
-            return item.trim();
-          });
-        });
+        text.wbw = wbwList.map(item =>
+          item.split('–').map(item => item.trim())
+        );
         break;
       case 'translation':
         text.translation = $(item).text();
@@ -96,11 +95,11 @@ function russian_chapter(filename) {
       case 'verse-in-purp':
       case 'verse-small':
       case 'verse-ref':
-        if (!text.purport) text.purport = {};
+        if (!text.purport) text.purport = [];
         var t = $(item)
           .text()
           .trim();
-        if (t) text.purport[++purportPara] = t;
+        if (t) text.purport.push(t);
         break;
       case 'end':
         text.end = $(item)
@@ -118,7 +117,7 @@ function examineDiv(filename) {
   var file = fs.readFileSync(filename).toString();
   var $ = dom.load(file, {
     normalizeWhitespace: true,
-    xmlMode: true,
+    xmlMode: true
   });
   var alldivs = $('div');
   alldivs.each(function(i, item) {
@@ -139,13 +138,13 @@ function out(json) {
 
 function readGita(location, reader) {
   var fileList = fs.readdirSync(location);
-  var gita = {};
+  var gita = [];
   var file, chapter;
   for (var i = 0, len = fileList.length; i < len; i++) {
     file = path.join(location, fileList[i]);
     if (fs.statSync(file).isFile()) {
       chapter = reader(file);
-      gita[chapter.number] = chapter;
+      gita.push(chapter);
     }
   }
   return gita;
