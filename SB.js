@@ -2,18 +2,25 @@ var dom = require('cheerio');
 var path = require('path');
 var fs = require('fs');
 
+var converter = require('convert-sanskrit-to-rus').converter;
+var mapper = require('convert-sanskrit-to-rus').mapper;
+var transliterations = require('convert-sanskrit-to-rus').transliterations;
+
+var replacer = mapper(
+  [transliterations.Gaura.index],
+  transliterations.Unicode.index,
+);
+
+var translite = converter(replacer);
+
 function russian_chapter(filename) {
-  var file = fs.readFileSync(filename).toString();
-  var $ = dom.load(file, {
-    normalizeWhitespace: true,
-    xmlMode: true
-  });
+  var file = translite(fs.readFileSync(filename).toString());
+  var $ = dom.load(file);
   $('.small-caps').remove();
   var alldivs = $('div');
   var chapter = { texts: [] };
   var index = 0;
   var text;
-  var purportPara;
 
   alldivs.each(function(i, item) {
     var current = $(item).attr('class');
@@ -21,7 +28,7 @@ function russian_chapter(filename) {
       case 'chapter-head':
         var ht = $(item)
           .html()
-          .replace(new RegExp(/\<br\s*\/\>/, 'ig'), ' ');
+          .replace(new RegExp(/\n/, 'ig'), ' ');
         chapter.name = $('<div>')
           .html(ht)
           .text();
@@ -64,7 +71,7 @@ function russian_chapter(filename) {
         if (!text.sanskrit) text.sanskrit = [];
         var sansList = $(item)
           .html()
-          .split(new RegExp(/\<br\s*\/\>/, 'ig'));
+          .split(new RegExp(/\n/, 'ig'));
 
         text.sanskrit.push.apply(
           text.sanskrit,
@@ -74,7 +81,7 @@ function russian_chapter(filename) {
               .html(br)
               .text()
               .trim();
-          })
+          }),
         );
         break;
       case 'word-by-word':
@@ -82,7 +89,7 @@ function russian_chapter(filename) {
           .text()
           .split(';');
         text.wbw = wbwList.map(item =>
-          item.split('–').map(item => item.trim())
+          item.split('–').map(item => item.trim()),
         );
         break;
       case 'translation':
@@ -111,32 +118,13 @@ function russian_chapter(filename) {
   return chapter;
 }
 
-var divs = {};
-
-function examineDiv(filename) {
-  var file = fs.readFileSync(filename).toString();
-  var $ = dom.load(file, {
-    normalizeWhitespace: true,
-    xmlMode: true
-  });
-  var alldivs = $('div');
-  alldivs.each(function(i, item) {
-    var current = $(item).attr('class');
-    if (current) {
-      if (!divs[current]) divs[current] = {};
-      divs[current][filename] = 1;
-    }
-  });
-  return divs;
-}
-
 var jsb = require('./beautify.js').js_beautify;
 
 function out(json) {
   return jsb(JSON.stringify(json));
 }
 
-function readGita(location, reader) {
+function readBook(location, reader) {
   var fileList = fs.readdirSync(location);
   var gita = [];
   var file, chapter;
@@ -150,7 +138,7 @@ function readGita(location, reader) {
   return gita;
 }
 
-var gita_ru = readGita('./SB3', russian_chapter);
+var gita_ru = readBook('./SB3', russian_chapter);
 
 fs.writeFileSync('SB3.json', out(gita_ru));
 

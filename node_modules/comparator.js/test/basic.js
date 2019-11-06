@@ -1,4 +1,5 @@
 var index = process.env['COVERAGE'] ? '../index-cov.js' : '../';
+var inspect = require('util').inspect;
 
 var assert = require('assert');
 var comarator = require('./../index.js');
@@ -78,7 +79,7 @@ describe('Comparator', function() {
 	});
 
 	it('diff', function() {
-		function diffEqual(source,dest){
+		function diffEqual(source, dest){
 			assert.ok(looseEq(source, dest));
 		}
 		diffEqual(diff({b:1, a:3}, {a:3, b:1}),{
@@ -224,56 +225,35 @@ describe('Comparator', function() {
 			}
 		});
 
-		diffEqual(diff({b:1, a:[{d:1},3]}, {a:[3,{d:2}], b:1}), {
-			"result": 3,
-			"reorder": true,
-			"a": {
-				"order": {
-					"from": 1,
-					"to": 0
-				},
-				"value": {
-					"1": {
-						"order": {
-							"from": 1,
-							"to": 0
-						},
-						"value": {
-							"result": 1,
-							"value": 3
-						}
-					},
-					"result": 3,
-					"reorder": true,
-					"removed": {
-						"0": {
-							"order": -1,
-							"value": {
-								"d": 1
-							}
-						}
-					},
-					"inserted": {
-						"1": {
-							"order": 1,
-							"value": {
-								"d": 2
-							}
-						}
-					}
-				}
-			},
-			"b": {
-				"order": {
-					"from": 0,
-					"to": 1
-				},
-				"value": {
-					"result": 1,
-					"value": 1
-				}
-			}
-		});
+		var v = diff({b:1, a:[{d:1},3]}, {a:[3,{d:2}], b:1});
+		diffEqual(v, {
+			result: 3,
+	  	reorder: true,
+		  a: { 
+		  		order: { from: 1, to: 0 },
+		    	value: { 
+		    		'0': {	
+		    				order: { from: 0, to: 1 },
+		          	value: { 
+		          		result: 3,
+		          		d: { result: 3,	from: 1, to: 2 } 
+		         		} 
+		        },
+		        '1': { 
+		        	order: { from: 1, to: 0 },
+		        	value: { result: 1, value: 3 }
+		        },
+		        result: 3,
+		        reorder: true 
+		    } 
+		  },
+		  b: { 
+		  	order: { from: 0, to: 1 },
+		  	value: { result: 1, value: 1 } 
+		  } 
+	  }
+  );
+
 		diffEqual(diff([1, 2, 3], [1, 2, 3]), {
 			result: 1,
 			value: [1, 2, 3]

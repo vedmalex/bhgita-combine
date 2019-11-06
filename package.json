@@ -1,0 +1,25 @@
+{
+  "name": "bhgita-combine",
+  "version": "1.0.0",
+  "description": "проект по сборке версии Бхагавад-Гиты. файлы: makeit.js - изначальный файл, в котором анализируется по главе. \tесть заготовки для сравнения текстов. combineit.js - объединение текстов из файлов в один json можно использовать для анализа  так же в нем есть код который переносит санскрит из английской версии в русскую",
+  "main": "SB.js",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.3",
+    "comparator.js": "^0.0.11",
+    "convert-sanskrit-to-rus": "^1.0.0-beta.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedmalex/bhgita-combine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vedmalex/bhgita-combine/issues"
+  },
+  "homepage": "https://github.com/vedmalex/bhgita-combine#readme"
+}
