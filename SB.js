@@ -25,6 +25,9 @@ function russian_chapter(filename) {
   alldivs.each(function(i, item) {
     var current = $(item).attr('class');
     switch (current) {
+      case 'footnote':
+        text.footnote = $(item).text();
+        break;
       case 'chapter-head':
         var ht = $(item)
           .html()
@@ -35,6 +38,12 @@ function russian_chapter(filename) {
         break;
       case 'chaptno':
         chapter.number = parseInt($(item).text(), 10);
+        break;
+      case 'header':
+        text = { name: $(item).text() };
+        chapter.texts.push(text);
+        text.index = index++;
+        purportPara = 0;
         break;
       case 'text':
         var txts = $(item)
@@ -138,9 +147,9 @@ function readBook(location, reader) {
   return gita;
 }
 
-var gita_ru = readBook('./SB3', russian_chapter);
+var gita_ru = readBook('./SB2', russian_chapter);
 
-fs.writeFileSync('SB3.json', out(gita_ru));
+fs.writeFileSync('SB2.json', out(gita_ru));
 
 console.log('done');
 // TODO: сохранить оригинальное форматирование... --- оно есть в текстах.
