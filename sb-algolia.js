@@ -56,7 +56,7 @@ var sizes = sb.reduce((res, cur) => {
         translation,
         purport,
         footnote,
-        size: sanskrit + wbw + translation + purport || 0 + footnote || 0,
+        size: sanskrit + wbw + translation + (purport || 0) + (footnote || 0),
       };
     }),
   );
