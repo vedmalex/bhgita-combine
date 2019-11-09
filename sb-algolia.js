@@ -50,15 +50,14 @@ var sizes = sb.reduce((res, cur) => {
 
       return {
         chapter: cur.number,
-
         sanskrit,
         wbw,
         translation,
         purport,
         footnote,
-        size: sanskrit + wbw + translation + (purport || 0) + (footnote || 0),
+        size: sanskrit + wbw + translation + (purport || 0) + (footnote || 0)
       };
-    }),
+    })
   );
   return res;
 }, []);
