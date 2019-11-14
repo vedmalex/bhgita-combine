@@ -15,7 +15,10 @@ var translite = converter(replacer);
 
 function russian_chapter(filename) {
   var file = translite(fs.readFileSync(filename).toString());
-  var $ = dom.load(file);
+  var $ = dom.load(file, {
+    // normalizeWhitespace: true,
+    // xmlMode: true,
+  });
   $('.small-caps').remove();
   var alldivs = $('div');
   var chapter = { texts: [] };
@@ -97,13 +100,18 @@ function russian_chapter(filename) {
       case 'word-by-word':
         var wbwList = $(item)
           .text()
-          .split(';');
+          .split(/[;\.]/)
+          .filter(w => w);
         text.wbw = wbwList.map(item =>
           item.split('–').map(item => item.trim()),
         );
         break;
       case 'translation':
         text.translation = $(item).text();
+        if (text.translation.match(/^Тебе известно все/)) {
+          console.log(text.translation);
+          console.log(item);
+        }
         break;
       case 'purport':
       case 'purp':
@@ -116,13 +124,18 @@ function russian_chapter(filename) {
         var t = $(item)
           .text()
           .trim();
-        if (t) text.purport.push(t);
+        if (t) {
+          if (text.purport.length === 0 && t.match(/^КОММЕНТАРИЙ:/)) {
+            t = t.slice(13);
+          }
+          text.purport.push(t);
+        }
         break;
-      case 'end':
-        chapter.end = $(item)
-          .text()
-          .trim();
-        break;
+      // case 'end':
+      //   chapter.end = $(item)
+      //     .text()
+      //     .trim();
+      //   break;
     }
   });
   return chapter;
@@ -148,9 +161,9 @@ function readBook(location, reader) {
   return gita;
 }
 
-var gita_ru = readBook('./SB4', russian_chapter);
+var gita_ru = readBook('./SB3', russian_chapter);
 
-fs.writeFileSync('SB4.json', out(gita_ru));
+fs.writeFileSync('SB3.json', out(gita_ru));
 
 console.log('done');
 // TODO: сохранить оригинальное форматирование... --- оно есть в текстах.
