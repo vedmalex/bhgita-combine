@@ -50,6 +50,8 @@ var sizes = sb.reduce((res, cur) => {
 
       return {
         chapter: cur.number,
+        text: t.text,
+        index: t.index,
         sanskrit,
         wbw,
         translation,
