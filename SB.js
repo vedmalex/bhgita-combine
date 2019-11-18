@@ -17,46 +17,14 @@ var translite = converter(replacer);
 
 function russian_chapter(filename) {
   var file = translite(fs.readFileSync(filename).toString());
-  // var $ = dom.load(file, {
-  //   // normalizeWhitespace: true,
-  //   // xmlMode: true,
-  // });
-  /**
- * 
- * console.log("---> Running");
+  var $ = dom.load(file, {
+    // normalizeWhitespace: true,
+    // xmlMode: true,
+  });
 
-const curl = require("curl");
-const jsdom = require("jsdom");
-const url = "http://www.imdb.com/list/ls004489992/";
-
-curl.get(url, null, (err,resp,body)=>{
-	if(resp.statusCode == 200){
-		parseData(body);
-	}
-	else{
-		//some error handling
-		console.log("error while fetching url");
-	}
-});
-
-
-function parseData(html){
-	const {JSDOM} = jsdom;
-	const dom = new JSDOM(html);
-   	const $ = (require('jquery'))(dom.window);
-
-   	//let's start extracting the data
-	var items = $(".list_item");
-	for(var i = 0; i < items.length; i++){
-		var innerInfo = $(items[i]).children('.info');
-		var movieName = $($(innerInfo).find('a')[0]).html();
-		var movieYear = $($(innerInfo).find('.year_type')[0]).html();
-		console.log(i + " -> " + movieYear + ":" + movieName);
-	}      	
- */
-  const { JSDOM } = jsdom;
-  var dom = new JSDOM(file);
-  var $ = jquery(dom.window);
+  // const { JSDOM } = jsdom;
+  // var dom = new JSDOM(file);
+  // var $ = jquery(dom.window);
 
   $('.small-caps').remove();
 
@@ -140,18 +108,19 @@ function parseData(html){
       case 'word-by-word':
         var wbwList = $(item)
           .text()
-          .split(/[;\.]/)
+          .split(/[;]/)
           .filter(w => w);
         text.wbw = wbwList.map(item =>
           item.split('–').map(item => item.trim()),
         );
+        var last = text.wbw[text.wbw.length - 1][1];
+        if (last.match(/\.$/)) {
+          last.slice(0, -1);
+          text.wbw[text.wbw.length - 1][1] = last.slice(0, -1);
+        }
         break;
       case 'translation':
         text.translation = $(item).text();
-        if (text.translation.match(/^Тебе известно все/)) {
-          console.log(text.translation);
-          console.log(item);
-        }
         break;
       case 'purport':
       case 'purp':
@@ -200,8 +169,9 @@ function readBook(location, reader) {
   }
   return gita;
 }
-
+console.time('parse');
 var gita_ru = readBook('./SB3', russian_chapter);
+console.timeEnd('parse');
 
 fs.writeFileSync('SB3.json', out(gita_ru));
 
