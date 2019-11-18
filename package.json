@@ -8,7 +8,9 @@
     "comparator.js": "^0.0.11",
     "convert-sanskrit-to-rus": "^1.0.0-beta.10",
     "jquery": "^3.4.1",
-    "jsdom": "^15.2.1"
+    "jsdom": "^15.2.1",
+    "lunr": "^2.3.8",
+    "lunr-languages": "^1.4.0"
   },
   "devDependencies": {},
   "scripts": {
