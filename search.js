@@ -5,17 +5,38 @@ const lunr = require('lunr');
 require('lunr-languages/lunr.stemmer.support')(lunr);
 require('lunr-languages/lunr.ru')(lunr);
 
+var converter = require('convert-sanskrit-to-rus').converter;
+var mapper = require('convert-sanskrit-to-rus').mapper;
+var transliterations = require('convert-sanskrit-to-rus').transliterations;
+
+var replacer = mapper(
+  [transliterations.Unicode.index],
+  transliterations.XK.index,
+);
+
+var translite = converter(replacer);
+
 var idx = lunr(function() {
-  this.field('sanskrit');
-  this.field('translation');
-  this.field('purport');
+  this.field('sanskrit', {
+    extractor: obj => translite(obj.sanskrit.join('\n')),
+  });
+  this.field('translation', { extractor: obj => translite(obj.translation) });
+  this.field('wbw', {
+    extractor: obj => translite(obj.wbw.map(w => w.join(' - ')).join('\n')),
+  });
+  this.field('footnote', {
+    extractor: obj =>
+      obj.footnote ? translite(obj.footnote.join('\n')) : null,
+  });
+  this.field('purport', {
+    extractor: obj => (obj.purport ? translite(obj.purport.join('\n')) : null),
+  });
 
   sb.forEach(text => {
     this.use(lunr.ru);
     this.add({
       id: `3.${text.chapter}.${text.name}`,
-      translation: text.translation,
-      purport: text.purport ? text.purport.join('\n') : '',
+      ...text,
     });
   });
 });
