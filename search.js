@@ -11,7 +11,7 @@ var transliterations = require('convert-sanskrit-to-rus').transliterations;
 
 var replacer = mapper(
   [transliterations.Unicode.index],
-  transliterations.XK.index,
+  transliterations.flat.index,
 );
 
 var translite = converter(replacer);
