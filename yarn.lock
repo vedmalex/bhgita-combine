@@ -130,10 +130,10 @@ comparator.js@^0.0.11:
   dependencies:
     diff "*"
 
-convert-sanskrit-to-rus@^1.0.0-beta.12:
-  version "1.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/convert-sanskrit-to-rus/-/convert-sanskrit-to-rus-1.0.0-beta.12.tgz#718c10638fa7012558f91466721324e6dc497668"
-  integrity sha512-BEN0O/VHYBhG/MxlnWaVUHbPqatemdbV9q58j+RzcxAXxt6ceOjZ56X4OK125TM5yUzi/DfHyIuZGNrd0sW5ug==
+convert-sanskrit-to-rus@^1.0.0-beta.13:
+  version "1.0.0-beta.13"
+  resolved "https://registry.yarnpkg.com/convert-sanskrit-to-rus/-/convert-sanskrit-to-rus-1.0.0-beta.13.tgz#1588c7c55c9ff814823dea365783e195bf98faa4"
+  integrity sha512-oeE8rf1PjlI2Buf9/b78GgW8Oflj1YqY7ogVgQMSYpyxaiM+tCYOozWjSQ8WmbjaKYyCCKc4UzqjcNqe9q1/Ww==
   dependencies:
     lodash "^4.17.15"
 
