@@ -1,7 +1,7 @@
-var path = require('path');
-var fs = require('fs');
-var sb = JSON.parse(fs.readFileSync('./SB3.json'));
-var jsb = require('./beautify.js').js_beautify;
+var path = require("path");
+var fs = require("fs");
+var sb = JSON.parse(fs.readFileSync("./SB3.json"));
+var jsb = require("./beautify.js").js_beautify;
 
 function out(json) {
   return jsb(JSON.stringify(json));
@@ -10,9 +10,10 @@ function out(json) {
 var texts = sb.reduce((res, cur) => {
   res.push(
     ...cur.texts.map(t => ({
+      id: `3.${cur.number}.${t.name}`,
       ...t,
-      chapter: cur.number,
-    })),
+      chapter: cur.number
+    }))
   );
   return res;
 }, []);
@@ -22,8 +23,8 @@ var textSearch = sb.reduce((res, cur) => {
     ...cur.texts.map(t => ({
       id: `3.${cur.number}.${t.name}`,
       ...t,
-      chapter: cur.number,
-    })),
+      chapter: cur.number
+    }))
   ].forEach(t => (res[t.id] = t));
   return res;
 }, {});
@@ -73,9 +74,9 @@ var sizes = sb.reduce((res, cur) => {
         translation,
         purport,
         footnote,
-        size: sanskrit + wbw + translation + (purport || 0) + (footnote || 0),
+        size: sanskrit + wbw + translation + (purport || 0) + (footnote || 0)
       };
-    }),
+    })
   );
   return res;
 }, []);
@@ -85,7 +86,7 @@ var chapters = sb.reduce((res, cur) => {
   return res;
 }, []);
 
-fs.writeFileSync('SB3-texts.json', out(texts));
-fs.writeFileSync('SB3-search-results.json', out(textSearch));
-fs.writeFileSync('SB3-chapters.json', out(chapters));
-fs.writeFileSync('SB3-sizes.json', out(sizes));
+fs.writeFileSync("SB3-texts.json", out(texts));
+fs.writeFileSync("SB3-search-results.json", out(textSearch));
+fs.writeFileSync("SB3-chapters.json", out(chapters));
+fs.writeFileSync("SB3-sizes.json", out(sizes));
