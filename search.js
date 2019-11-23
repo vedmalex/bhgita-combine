@@ -39,6 +39,6 @@ var idx = lunr(function() {
   });
 });
 
-console.log(inspect(idx.search("свами"), { depth: 10 }));
+// console.log(inspect(idx.search("свами"), { depth: 10 }));
 
 fs.writeFileSync("SB3-index.json", JSON.stringify(idx));
