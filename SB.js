@@ -1,23 +1,21 @@
-var dom = require('cheerio');
-var jsdom = require('jsdom');
-var jquery = require('jquery');
-var path = require('path');
-var fs = require('fs');
+const dom = require('cheerio');
+const path = require('path');
+const fs = require('fs');
 
-var converter = require('convert-sanskrit-to-rus').converter;
-var mapper = require('convert-sanskrit-to-rus').mapper;
-var transliterations = require('convert-sanskrit-to-rus').transliterations;
+const { converter } = require('convert-sanskrit-to-rus');
+const { mapper } = require('convert-sanskrit-to-rus');
+const { transliterations } = require('convert-sanskrit-to-rus');
 
-var replacer = mapper(
+const replacer = mapper(
   [transliterations.Gaura.index],
   transliterations.Unicode.index,
 );
 
-var translite = converter(replacer);
+const translite = converter(replacer);
 
-function russian_chapter(filename) {
-  var file = translite(fs.readFileSync(filename).toString());
-  var $ = dom.load(file, {
+function russianChapter(filename) {
+  const file = translite(fs.readFileSync(filename).toString());
+  const $ = dom.load(file, {
     // normalizeWhitespace: true,
     // xmlMode: true,
   });
@@ -28,25 +26,26 @@ function russian_chapter(filename) {
 
   $('.small-caps').remove();
 
-  var alldivs = $('div');
-  var chapter = { texts: [] };
-  var index = 0;
-  var text;
+  const alldivs = $('div');
+  const chapter = { texts: [] };
+  let index = 0;
+  let text;
 
-  alldivs.each(function(i, item) {
-    var current = $(item).attr('class');
+  alldivs.each((i, item) => {
+    const current = $(item).attr('class');
     switch (current) {
       case 'footnote':
-        if (!text.footnote) text.footnote = [];
+        if (!text.footnote) { text.footnote = []; }
         text.footnote.push($(item).text());
         break;
-      case 'chapter-head':
-        var ht = $(item)
+      case 'chapter-head': {
+        const ht = $(item)
           .html()
           .replace(new RegExp(/\n/, 'ig'), ' ');
         chapter.name = $('<div>')
           .html(ht)
           .text();
+      }
         break;
       case 'chaptno':
         chapter.number = parseInt($(item).text(), 10);
@@ -54,33 +53,34 @@ function russian_chapter(filename) {
       case 'header':
         text = { name: $(item).text() };
         chapter.texts.push(text);
-        text.index = index++;
-        purportPara = 0;
+        text.index = index;
+        index += 1;
         break;
-      case 'text':
-        var txts = $(item)
+
+      case 'text': {
+        const txts = $(item)
           .text()
           .match(/ТЕКСТЫ* (\d{1,2})(–(\d{1,2})){0,1}/);
 
         text = {};
         if (txts[3]) {
-          text.name = txts[1] + '-' + txts[3];
+          text.name = `${txts[1]}-${txts[3]}`;
           text.text = [parseInt(txts[1], 10), parseInt(txts[3], 10)];
         } else {
           text.text = [parseInt(txts[1], 10)];
-          text.name = txts[1];
+          const [, name] = txts;
+          text.name = name;
         }
         chapter.texts.push(text);
-        text.index = index++;
-
-        purportPara = 0;
+        text.index = index;
+        index += 1;
+      }
         break;
       // case 'texts':
       //   var txts = $(item)
       //     .text()
       //     .match(/ТЕКСТЫ \d{1,2}\.(\d{1,2})–(\d{1,2})/);
       //   text = chapter[txts[1] + '-' + txts[2]] = {};
-      //   purportPara = 0;
       //   break;
       // case 'dev-uvaca':
       // case 'devanagari':
@@ -88,36 +88,33 @@ function russian_chapter(filename) {
       //   text.devanagari.push($(item).text());
       //   break;
       case 'sans-uvaca':
-      case 'sanskrit':
+      case 'sanskrit': {
         if (!text.sanskrit) text.sanskrit = [];
-        var sansList = $(item)
+        const sansList = $(item)
           .html()
           .split(new RegExp(/\n/, 'ig'));
 
-        text.sanskrit.push.apply(
-          text.sanskrit,
-          sansList.map(function(br) {
-            return $('<div>')
-              .addClass('sanskrit')
-              .html(br)
-              .text()
-              .trim();
-          }),
+        text.sanskrit.push(
+          ...sansList.map((br) => $('<div>')
+            .addClass('sanskrit')
+            .html(br)
+            .text()
+            .trim()),
         );
+      }
         break;
-      case 'word-by-word':
-        var wbwList = $(item)
+      case 'word-by-word': {
+        const wbwList = $(item)
           .text()
           .split(/[;]/)
-          .filter(w => w);
-        text.wbw = wbwList.map(item =>
-          item.split('–').map(item => item.trim()),
-        );
-        var last = text.wbw[text.wbw.length - 1][1];
+          .filter((w) => w);
+        text.wbw = wbwList.map((item1) => item1.split('–').map((item2) => item2.trim()));
+        const last = text.wbw[text.wbw.length - 1][1];
         if (last.match(/\.$/)) {
           last.slice(0, -1);
           text.wbw[text.wbw.length - 1][1] = last.slice(0, -1);
         }
+      }
         break;
       case 'translation':
         text.translation = $(item).text();
@@ -128,9 +125,9 @@ function russian_chapter(filename) {
       case 'keep':
       case 'verse-in-purp':
       case 'verse-small':
-      case 'verse-ref':
+      case 'verse-ref': {
         if (!text.purport) text.purport = [];
-        var t = $(item)
+        let t = $(item)
           .text()
           .trim();
         if (t) {
@@ -139,28 +136,31 @@ function russian_chapter(filename) {
           }
           text.purport.push(t);
         }
+      }
         break;
       // case 'end':
       //   chapter.end = $(item)
       //     .text()
       //     .trim();
       //   break;
+      default: break;
     }
   });
   return chapter;
 }
 
-var jsb = require('./beautify.js').js_beautify;
+const jsb = require('./beautify.js').js_beautify;
 
 function out(json) {
   return jsb(JSON.stringify(json));
 }
 
 function readBook(location, reader) {
-  var fileList = fs.readdirSync(location);
-  var gita = [];
-  var file, chapter;
-  for (var i = 0, len = fileList.length; i < len; i++) {
+  const fileList = fs.readdirSync(location);
+  const gita = [];
+  let file; let
+    chapter;
+  for (let i = 0, len = fileList.length; i < len; i++) {
     file = path.join(location, fileList[i]);
     if (fs.statSync(file).isFile()) {
       chapter = reader(file);
@@ -170,10 +170,10 @@ function readBook(location, reader) {
   return gita;
 }
 console.time('parse');
-var gita_ru = readBook('./SB3', russian_chapter);
+const giteRu = readBook('./SB3', russianChapter);
 console.timeEnd('parse');
 
-fs.writeFileSync('SB3.json', out(gita_ru));
+fs.writeFileSync('SB3.json', out(giteRu));
 
 console.log('done');
 // TODO: сохранить оригинальное форматирование... --- оно есть в текстах.

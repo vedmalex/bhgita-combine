@@ -1,72 +1,73 @@
-var path = require("path");
-var fs = require("fs");
-var sb = JSON.parse(fs.readFileSync("./SB3.json"));
-var jsb = require("./beautify.js").js_beautify;
+const fs = require('fs');
+
+const sb = JSON.parse(fs.readFileSync('./SB3.json'));
+const jsb = require('./beautify.js').js_beautify;
 
 function out(json) {
   return jsb(JSON.stringify(json));
 }
 
-var texts = sb.reduce((res, cur) => {
+const texts = sb.reduce((res, cur) => {
   res.push(
-    ...cur.texts.map(t => ({
+    ...cur.texts.map((t) => ({
       id: `3.${cur.number}.${t.name}`,
       ...t,
-      chapter: cur.number
-    }))
+      chapter: cur.number,
+    })),
   );
   return res;
 }, []);
 
-var textSearch = sb.reduce((res, cur) => {
+const textSearch = sb.reduce((res, cur) => {
   [
-    ...cur.texts.map(t => ({
+    ...cur.texts.map((t) => ({
       id: `3.${cur.number}.${t.name}`,
       ...t,
-      chapter: cur.number
-    }))
-  ].forEach(t => (res[t.id] = t));
+      chapter: cur.number,
+    })),
+  ].forEach((t) => { res[t.id] = t; });
   return res;
 }, {});
 
-var sizes = sb.reduce((res, cur) => {
-  res.push(
-    ...cur.texts.map(t => {
-      var sanskrit;
-      var wbw;
-      var translation;
-      var purport;
-      var footnote;
+const sizes = sb.reduce((result, current) => {
+  result.push(
+    ...current.texts.map((t) => {
+      let purport;
+      let footnote;
 
-      sanskrit = t.sanskrit.reduce((res, cur) => {
-        res += cur.split(/[\-\s]/).length;
+      const sanskrit = t.sanskrit.reduce((_res, cur) => {
+        let res = _res;
+        res += cur.split(/[-\s]/).length;
         return res;
       }, 0);
 
-      wbw = t.wbw.reduce((res, cur) => {
-        res += cur[0].split(/[\-\s]/).length;
-        res += cur[1].split(/[\-\s]/).length;
+      const wbw = t.wbw.reduce((_res, cur) => {
+        let res = _res;
+        res += cur[0].split(/[-\s]/).length;
+        res += cur[1].split(/[-\s]/).length;
         return res;
       }, 0);
 
       if (t.purport) {
-        purport = t.purport.reduce((res, cur) => {
-          res += cur.split(/[\-\s]/).length;
+        purport = t.purport.reduce((_res, cur) => {
+          let res = _res;
+          res += cur.split(/[-\s]/).length;
           return res;
         }, 0);
       }
 
-      translation = t.translation.split(/[\-\s]/).length;
+      const translation = t.translation.split(/[-\s]/).length;
 
       if (t.footnote) {
-        footnote = t.footnote.reduce((res, cur) => {
-          res += cur.split(/[\-\s]/).length;
+        footnote = t.footnote.reduce((_res, cur) => {
+          let res = _res;
+          res += cur.split(/[-\s]/).length;
           return res;
         }, 0);
       }
 
       return {
-        chapter: cur.number,
+        chapter: current.number,
         text: t.text,
         index: t.index,
         sanskrit,
@@ -74,19 +75,19 @@ var sizes = sb.reduce((res, cur) => {
         translation,
         purport,
         footnote,
-        size: sanskrit + wbw + translation + (purport || 0) + (footnote || 0)
+        size: sanskrit + wbw + translation + (purport || 0) + (footnote || 0),
       };
-    })
+    }),
   );
-  return res;
+  return result;
 }, []);
 
-var chapters = sb.reduce((res, cur) => {
+const chapters = sb.reduce((res, cur) => {
   res.push({ ...cur, texts: undefined, end: undefined });
   return res;
 }, []);
 
-fs.writeFileSync("SB3-texts.json", out(texts));
-fs.writeFileSync("SB3-search-results.json", out(textSearch));
-fs.writeFileSync("SB3-chapters.json", out(chapters));
-fs.writeFileSync("SB3-sizes.json", out(sizes));
+fs.writeFileSync('SB3-texts.json', out(texts));
+fs.writeFileSync('SB3-search-results.json', out(textSearch));
+fs.writeFileSync('SB3-chapters.json', out(chapters));
+fs.writeFileSync('SB3-sizes.json', out(sizes));
