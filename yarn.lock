@@ -296,10 +296,10 @@ contains-path@^0.1.0:
   resolved "https://registry.yarnpkg.com/contains-path/-/contains-path-0.1.0.tgz#fe8cf184ff6670b6baef01a9d4861a5cbec4120a"
   integrity sha1-/ozxhP9mcLa67wGp1IYaXL7EEgo=
 
-convert-sanskrit-to-rus@^1.0.0-beta.13:
-  version "1.0.0-beta.13"
-  resolved "https://registry.yarnpkg.com/convert-sanskrit-to-rus/-/convert-sanskrit-to-rus-1.0.0-beta.13.tgz#1588c7c55c9ff814823dea365783e195bf98faa4"
-  integrity sha512-oeE8rf1PjlI2Buf9/b78GgW8Oflj1YqY7ogVgQMSYpyxaiM+tCYOozWjSQ8WmbjaKYyCCKc4UzqjcNqe9q1/Ww==
+convert-sanskrit-to-rus@^1.0.0-beta.14:
+  version "1.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/convert-sanskrit-to-rus/-/convert-sanskrit-to-rus-1.0.0-beta.14.tgz#b6a7faeafcdd148884faacdcae5db4f614af6a37"
+  integrity sha512-Zvrn8D3e5mmFhHXdXua6d6oj4hC5mYZZbZ07t9vAQEXnz4NlwufXVeGj0jLQIkQqQxXwla/PU7GSU2fn74k7AQ==
   dependencies:
     lodash "^4.17.15"
 
