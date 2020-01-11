@@ -6,7 +6,7 @@
   "dependencies": {
     "cheerio": "1.0.0-rc.3",
     "comparator.js": "^0.0.11",
-    "convert-sanskrit-to-rus": "^1.0.0-beta.14",
+    "convert-sanskrit-to-rus": "^1.0.0-beta.16",
     "jquery": "^3.4.1",
     "jsdom": "^15.2.1",
     "lunr": "^2.3.8",

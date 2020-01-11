@@ -14,7 +14,7 @@ const replacer = mapper(
 const translite = converter(replacer);
 
 function russianChapter(filename) {
-  const file = translite(fs.readFileSync(filename).toString());
+  const file = fs.readFileSync(filename).toString();
   const $ = dom.load(file, {
     // normalizeWhitespace: true,
     // xmlMode: true,
@@ -36,22 +36,22 @@ function russianChapter(filename) {
     switch (current) {
       case 'footnote':
         if (!text.footnote) { text.footnote = []; }
-        text.footnote.push($(item).text());
+        text.footnote.push(translite($(item).text()));
         break;
       case 'chapter-head': {
         const ht = $(item)
           .html()
           .replace(new RegExp(/\n/, 'ig'), ' ');
-        chapter.name = $('<div>')
+        chapter.name = translite($('<div>')
           .html(ht)
-          .text();
+          .text());
       }
         break;
       case 'chaptno':
         chapter.number = parseInt($(item).text(), 10);
         break;
       case 'header':
-        text = { name: $(item).text() };
+        text = { name: translite($(item).text()) };
         chapter.texts.push(text);
         text.index = index;
         index += 1;
@@ -95,11 +95,11 @@ function russianChapter(filename) {
           .split(new RegExp(/\n/, 'ig'));
 
         text.sanskrit.push(
-          ...sansList.map((br) => $('<div>')
+          ...sansList.map((br) => translite($('<div>')
             .addClass('sanskrit')
             .html(br)
             .text()
-            .trim()),
+            .trim())),
         );
       }
         break;
@@ -108,7 +108,7 @@ function russianChapter(filename) {
           .text()
           .split(/[;]/)
           .filter((w) => w);
-        text.wbw = wbwList.map((item1) => item1.split('–').map((item2) => item2.trim()));
+        text.wbw = wbwList.map((item1) => item1.split('–').map((item2) => translite(item2.trim())));
         const last = text.wbw[text.wbw.length - 1][1];
         if (last.match(/\.$/)) {
           last.slice(0, -1);
@@ -117,7 +117,7 @@ function russianChapter(filename) {
       }
         break;
       case 'translation':
-        text.translation = $(item).text();
+        text.translation = translite($(item).text());
         break;
       case 'purport':
       case 'purp':
@@ -127,9 +127,9 @@ function russianChapter(filename) {
       case 'verse-small':
       case 'verse-ref': {
         if (!text.purport) text.purport = [];
-        let t = $(item)
+        let t = translite($(item)
           .text()
-          .trim();
+          .trim());
         if (t) {
           if (text.purport.length === 0 && t.match(/^КОММЕНТАРИЙ:/)) {
             t = t.slice(13);
@@ -160,7 +160,7 @@ function readBook(location, reader) {
   const gita = [];
   let file; let
     chapter;
-  for (let i = 0, len = fileList.length; i < len; i++) {
+  for (let i = 0, len = fileList.length; i < len; i += 1) {
     file = path.join(location, fileList[i]);
     if (fs.statSync(file).isFile()) {
       chapter = reader(file);
