@@ -54,9 +54,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^6.0.1:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.3.0.tgz#0087509119ffa4fc0a0041d1e93a417e68cb856e"
-  integrity sha512-/czfa8BwS88b9gWQVhc8eknunSA2DoJpJyTQkhheIf5E48u1N0R4q/YxxsAeqRrmK9TQ/uYfgLDfZo91UlANIA==
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 acorn@^7.1.0:
   version "7.1.0"
@@ -296,10 +296,10 @@ contains-path@^0.1.0:
   resolved "https://registry.yarnpkg.com/contains-path/-/contains-path-0.1.0.tgz#fe8cf184ff6670b6baef01a9d4861a5cbec4120a"
   integrity sha1-/ozxhP9mcLa67wGp1IYaXL7EEgo=
 
-convert-sanskrit-to-rus@^1.0.0-beta.16:
-  version "1.0.0-beta.16"
-  resolved "https://registry.yarnpkg.com/convert-sanskrit-to-rus/-/convert-sanskrit-to-rus-1.0.0-beta.16.tgz#aa5c04ec4b5d1eb068b07d9f2edc10f08dc77b21"
-  integrity sha512-RTs1iaHjanprnFRfm58UES27iIuqndlwBvut0gOTHwef/2uRG8siHFgLXVKYwz34wvsnr+z3eErVFpi2FIOWqg==
+convert-sanskrit-to-rus@^1.0.0-beta.17:
+  version "1.0.0-beta.19"
+  resolved "https://registry.yarnpkg.com/convert-sanskrit-to-rus/-/convert-sanskrit-to-rus-1.0.0-beta.19.tgz#726b4f7d0370788e9e3e08447f79ff62d7b3a92a"
+  integrity sha512-byshdLxjR9xOAl5+e+jm9gMRN0SjvqOb+3UhEVGI3RuV2wKmgWgXzh6LK1+vuMVLohrvesd0U+lZfxUxQHF2zQ==
   dependencies:
     lodash "^4.17.15"
 
