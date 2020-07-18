@@ -296,10 +296,10 @@ contains-path@^0.1.0:
   resolved "https://registry.yarnpkg.com/contains-path/-/contains-path-0.1.0.tgz#fe8cf184ff6670b6baef01a9d4861a5cbec4120a"
   integrity sha1-/ozxhP9mcLa67wGp1IYaXL7EEgo=
 
-convert-sanskrit-to-rus@^1.0.0-beta.16:
-  version "1.0.0-beta.16"
-  resolved "https://registry.yarnpkg.com/convert-sanskrit-to-rus/-/convert-sanskrit-to-rus-1.0.0-beta.16.tgz#aa5c04ec4b5d1eb068b07d9f2edc10f08dc77b21"
-  integrity sha512-RTs1iaHjanprnFRfm58UES27iIuqndlwBvut0gOTHwef/2uRG8siHFgLXVKYwz34wvsnr+z3eErVFpi2FIOWqg==
+convert-sanskrit-to-rus@^1.0.0-beta.17:
+  version "1.0.0-beta.19"
+  resolved "https://registry.yarnpkg.com/convert-sanskrit-to-rus/-/convert-sanskrit-to-rus-1.0.0-beta.19.tgz#726b4f7d0370788e9e3e08447f79ff62d7b3a92a"
+  integrity sha512-byshdLxjR9xOAl5+e+jm9gMRN0SjvqOb+3UhEVGI3RuV2wKmgWgXzh6LK1+vuMVLohrvesd0U+lZfxUxQHF2zQ==
   dependencies:
     lodash "^4.17.15"
 
@@ -1210,9 +1210,9 @@ lodash.sortby@^4.7.0:
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
 lodash@^4.15.0, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 loose-envify@^1.4.0:
   version "1.4.0"
