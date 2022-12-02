@@ -9,7 +9,7 @@
     "convert-sanskrit-to-rus": "^1.0.0-beta.17",
     "flexsearch": "^0.7.21",
     "jquery": "^3.4.1",
-    "jsdom": "^15.2.1",
+    "jsdom": "^16.5.0",
     "lunr": "^2.3.8",
     "lunr-languages": "^1.4.0",
     "stemmer-ru": "^1.1.1"
