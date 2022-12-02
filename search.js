@@ -1,3 +1,4 @@
+const util = require('util');
 const fs = require('fs');
 
 const sb = JSON.parse(fs.readFileSync('./SB3-texts.json'));
@@ -40,6 +41,6 @@ const idx = lunr(function () {
   });
 });
 
-// console.log(inspect(idx.search("свами"), { depth: 10 }));
+console.log(util.inspect(idx.search('свами'), { depth: 10 }));
 
 fs.writeFileSync('SB3-index.json', JSON.stringify(idx));
