@@ -5,8 +5,8 @@
     "sanskrit": 14,
     "wbw": 46,
     "translation": 25,
-    "purport": 145,
-    "size": 230
+    "purport": 487,
+    "size": 572
 }, {
     "chapter": 1,
     "text": [2],
@@ -127,8 +127,8 @@
     "sanskrit": 11,
     "wbw": 47,
     "translation": 25,
-    "purport": 190,
-    "size": 273
+    "purport": 286,
+    "size": 369
 }, {
     "chapter": 1,
     "text": [16, 18],
@@ -163,8 +163,8 @@
     "sanskrit": 23,
     "wbw": 55,
     "translation": 38,
-    "purport": 163,
-    "size": 279
+    "purport": 236,
+    "size": 352
 }, {
     "chapter": 1,
     "text": [23],
@@ -360,8 +360,8 @@
     "sanskrit": 15,
     "wbw": 44,
     "translation": 29,
-    "purport": 191,
-    "size": 279
+    "purport": 695,
+    "size": 783
 }, {
     "chapter": 2,
     "text": [3],
@@ -405,9 +405,9 @@
     "sanskrit": 22,
     "wbw": 53,
     "translation": 36,
-    "purport": 161,
+    "purport": 514,
     "footnote": 14,
-    "size": 286
+    "size": 639
 }, {
     "chapter": 2,
     "text": [8],
@@ -415,8 +415,8 @@
     "sanskrit": 16,
     "wbw": 38,
     "translation": 34,
-    "purport": 259,
-    "size": 347
+    "purport": 534,
+    "size": 622
 }, {
     "chapter": 2,
     "text": [9],
@@ -451,8 +451,8 @@
     "sanskrit": 17,
     "wbw": 44,
     "translation": 23,
-    "purport": 217,
-    "size": 301
+    "purport": 685,
+    "size": 769
 }, {
     "chapter": 2,
     "text": [13],
@@ -460,8 +460,8 @@
     "sanskrit": 14,
     "wbw": 35,
     "translation": 33,
-    "purport": 148,
-    "size": 230
+    "purport": 440,
+    "size": 522
 }, {
     "chapter": 2,
     "text": [14],
@@ -469,8 +469,8 @@
     "sanskrit": 13,
     "wbw": 35,
     "translation": 35,
-    "purport": 114,
-    "size": 197
+    "purport": 176,
+    "size": 259
 }, {
     "chapter": 2,
     "text": [15],
@@ -487,8 +487,8 @@
     "sanskrit": 14,
     "wbw": 37,
     "translation": 26,
-    "purport": 108,
-    "size": 185
+    "purport": 275,
+    "size": 352
 }, {
     "chapter": 2,
     "text": [17],
@@ -496,8 +496,8 @@
     "sanskrit": 14,
     "wbw": 32,
     "translation": 14,
-    "purport": 256,
-    "size": 316
+    "purport": 621,
+    "size": 681
 }, {
     "chapter": 2,
     "text": [18],
@@ -523,8 +523,8 @@
     "sanskrit": 20,
     "wbw": 51,
     "translation": 28,
-    "purport": 371,
-    "size": 470
+    "purport": 564,
+    "size": 663
 }, {
     "chapter": 2,
     "text": [21],
@@ -541,8 +541,8 @@
     "sanskrit": 16,
     "wbw": 41,
     "translation": 19,
-    "purport": 173,
-    "size": 249
+    "purport": 442,
+    "size": 518
 }, {
     "chapter": 2,
     "text": [23],
@@ -550,8 +550,8 @@
     "sanskrit": 13,
     "wbw": 37,
     "translation": 12,
-    "purport": 112,
-    "size": 174
+    "purport": 245,
+    "size": 307
 }, {
     "chapter": 2,
     "text": [24],
@@ -559,8 +559,8 @@
     "sanskrit": 15,
     "wbw": 33,
     "translation": 23,
-    "purport": 76,
-    "size": 147
+    "purport": 158,
+    "size": 229
 }, {
     "chapter": 2,
     "text": [25],
@@ -577,8 +577,8 @@
     "sanskrit": 15,
     "wbw": 42,
     "translation": 26,
-    "purport": 118,
-    "size": 201
+    "purport": 293,
+    "size": 376
 }, {
     "chapter": 2,
     "text": [27],
@@ -586,8 +586,8 @@
     "sanskrit": 15,
     "wbw": 32,
     "translation": 23,
-    "purport": 81,
-    "size": 151
+    "purport": 160,
+    "size": 230
 }, {
     "chapter": 2,
     "text": [28],
@@ -595,8 +595,8 @@
     "sanskrit": 11,
     "wbw": 32,
     "translation": 28,
-    "purport": 222,
-    "size": 293
+    "purport": 344,
+    "size": 415
 }, {
     "chapter": 2,
     "text": [29],
@@ -604,8 +604,8 @@
     "sanskrit": 21,
     "wbw": 61,
     "translation": 33,
-    "purport": 228,
-    "size": 343
+    "purport": 395,
+    "size": 510
 }, {
     "chapter": 2,
     "text": [30],
@@ -613,8 +613,8 @@
     "sanskrit": 14,
     "wbw": 42,
     "translation": 20,
-    "purport": 88,
-    "size": 164
+    "purport": 118,
+    "size": 194
 }, {
     "chapter": 2,
     "text": [31],
@@ -622,8 +622,8 @@
     "sanskrit": 15,
     "wbw": 39,
     "translation": 29,
-    "purport": 265,
-    "size": 348
+    "purport": 400,
+    "size": 483
 }, {
     "chapter": 2,
     "text": [32],
@@ -631,8 +631,8 @@
     "sanskrit": 11,
     "wbw": 31,
     "translation": 17,
-    "purport": 128,
-    "size": 187
+    "purport": 171,
+    "size": 230
 }, {
     "chapter": 2,
     "text": [33],
@@ -649,8 +649,8 @@
     "sanskrit": 10,
     "wbw": 27,
     "translation": 17,
-    "purport": 105,
-    "size": 159
+    "purport": 114,
+    "size": 168
 }, {
     "chapter": 2,
     "text": [35],
@@ -694,8 +694,8 @@
     "sanskrit": 16,
     "wbw": 39,
     "translation": 36,
-    "purport": 381,
-    "size": 472
+    "purport": 822,
+    "size": 913
 }, {
     "chapter": 2,
     "text": [40],
@@ -703,8 +703,8 @@
     "sanskrit": 14,
     "wbw": 36,
     "translation": 28,
-    "purport": 262,
-    "size": 340
+    "purport": 332,
+    "size": 410
 }, {
     "chapter": 2,
     "text": [41],
@@ -712,8 +712,8 @@
     "sanskrit": 12,
     "wbw": 41,
     "translation": 19,
-    "purport": 212,
-    "size": 284
+    "purport": 416,
+    "size": 488
 }, {
     "chapter": 2,
     "text": [42, 43],
@@ -721,8 +721,8 @@
     "sanskrit": 26,
     "wbw": 75,
     "translation": 49,
-    "purport": 128,
-    "size": 278
+    "purport": 277,
+    "size": 427
 }, {
     "chapter": 2,
     "text": [44],
@@ -739,8 +739,8 @@
     "sanskrit": 14,
     "wbw": 56,
     "translation": 43,
-    "purport": 169,
-    "size": 282
+    "purport": 230,
+    "size": 343
 }, {
     "chapter": 2,
     "text": [46],
@@ -748,8 +748,8 @@
     "sanskrit": 10,
     "wbw": 39,
     "translation": 25,
-    "purport": 185,
-    "size": 259
+    "purport": 392,
+    "size": 466
 }, {
     "chapter": 2,
     "text": [47],
@@ -757,8 +757,8 @@
     "sanskrit": 16,
     "wbw": 47,
     "translation": 35,
-    "purport": 89,
-    "size": 187
+    "purport": 234,
+    "size": 332
 }, {
     "chapter": 2,
     "text": [48],
@@ -766,8 +766,8 @@
     "sanskrit": 14,
     "wbw": 30,
     "translation": 20,
-    "purport": 123,
-    "size": 187
+    "purport": 183,
+    "size": 247
 }, {
     "chapter": 2,
     "text": [49],
@@ -793,8 +793,8 @@
     "sanskrit": 14,
     "wbw": 39,
     "translation": 30,
-    "purport": 88,
-    "size": 171
+    "purport": 286,
+    "size": 369
 }, {
     "chapter": 2,
     "text": [52],
@@ -802,8 +802,8 @@
     "sanskrit": 12,
     "wbw": 37,
     "translation": 21,
-    "purport": 154,
-    "size": 224
+    "purport": 256,
+    "size": 326
 }, {
     "chapter": 2,
     "text": [53],
@@ -874,9 +874,9 @@
     "sanskrit": 11,
     "wbw": 27,
     "translation": 24,
-    "purport": 158,
+    "purport": 218,
     "footnote": 14,
-    "size": 234
+    "size": 294
 }, {
     "chapter": 2,
     "text": [61],
@@ -884,8 +884,8 @@
     "sanskrit": 13,
     "wbw": 35,
     "translation": 18,
-    "purport": 246,
-    "size": 312
+    "purport": 405,
+    "size": 471
 }, {
     "chapter": 2,
     "text": [62],
@@ -982,8 +982,8 @@
     "sanskrit": 14,
     "wbw": 37,
     "translation": 33,
-    "purport": 190,
-    "size": 274
+    "purport": 286,
+    "size": 370
 }, {
     "chapter": 3,
     "text": [1],
@@ -1009,8 +1009,8 @@
     "sanskrit": 17,
     "wbw": 46,
     "translation": 28,
-    "purport": 173,
-    "size": 264
+    "purport": 284,
+    "size": 375
 }, {
     "chapter": 3,
     "text": [4],
@@ -1063,8 +1063,8 @@
     "sanskrit": 14,
     "wbw": 41,
     "translation": 32,
-    "purport": 103,
-    "size": 190
+    "purport": 231,
+    "size": 318
 }, {
     "chapter": 3,
     "text": [10],
@@ -1072,8 +1072,8 @@
     "sanskrit": 14,
     "wbw": 41,
     "translation": 45,
-    "purport": 271,
-    "size": 371
+    "purport": 332,
+    "size": 432
 }, {
     "chapter": 3,
     "text": [11],
@@ -1081,8 +1081,8 @@
     "sanskrit": 11,
     "wbw": 27,
     "translation": 20,
-    "purport": 120,
-    "size": 178
+    "purport": 200,
+    "size": 258
 }, {
     "chapter": 3,
     "text": [12],
@@ -1090,8 +1090,8 @@
     "sanskrit": 16,
     "wbw": 37,
     "translation": 32,
-    "purport": 140,
-    "size": 225
+    "purport": 409,
+    "size": 494
 }, {
     "chapter": 3,
     "text": [13],
@@ -1108,8 +1108,8 @@
     "sanskrit": 12,
     "wbw": 35,
     "translation": 24,
-    "purport": 292,
-    "size": 363
+    "purport": 421,
+    "size": 492
 }, {
     "chapter": 3,
     "text": [15],
@@ -1126,8 +1126,8 @@
     "sanskrit": 11,
     "wbw": 43,
     "translation": 28,
-    "purport": 106,
-    "size": 188
+    "purport": 234,
+    "size": 316
 }, {
     "chapter": 3,
     "text": [17],
@@ -1153,8 +1153,8 @@
     "sanskrit": 13,
     "wbw": 30,
     "translation": 19,
-    "purport": 99,
-    "size": 161
+    "purport": 161,
+    "size": 223
 }, {
     "chapter": 3,
     "text": [20],
@@ -1181,8 +1181,8 @@
     "sanskrit": 13,
     "wbw": 41,
     "translation": 37,
-    "purport": 124,
-    "size": 215
+    "purport": 264,
+    "size": 355
 }, {
     "chapter": 3,
     "text": [23],
@@ -1199,8 +1199,8 @@
     "sanskrit": 15,
     "wbw": 37,
     "translation": 33,
-    "purport": 250,
-    "size": 335
+    "purport": 382,
+    "size": 467
 }, {
     "chapter": 3,
     "text": [25],
@@ -1244,8 +1244,8 @@
     "sanskrit": 14,
     "wbw": 43,
     "translation": 32,
-    "purport": 145,
-    "size": 234
+    "purport": 209,
+    "size": 298
 }, {
     "chapter": 3,
     "text": [30],
@@ -1316,8 +1316,8 @@
     "sanskrit": 17,
     "wbw": 40,
     "translation": 33,
-    "purport": 126,
-    "size": 216
+    "purport": 329,
+    "size": 419
 }, {
     "chapter": 3,
     "text": [38],
@@ -1352,8 +1352,8 @@
     "sanskrit": 13,
     "wbw": 35,
     "translation": 24,
-    "purport": 177,
-    "size": 249
+    "purport": 297,
+    "size": 369
 }, {
     "chapter": 3,
     "text": [42],
@@ -1361,8 +1361,8 @@
     "sanskrit": 15,
     "wbw": 34,
     "translation": 17,
-    "purport": 215,
-    "size": 281
+    "purport": 341,
+    "size": 407
 }, {
     "chapter": 3,
     "text": [43],
@@ -1379,8 +1379,8 @@
     "sanskrit": 15,
     "wbw": 46,
     "translation": 28,
-    "purport": 271,
-    "size": 360
+    "purport": 647,
+    "size": 736
 }, {
     "chapter": 4,
     "text": [2],
@@ -1415,8 +1415,8 @@
     "sanskrit": 17,
     "wbw": 39,
     "translation": 24,
-    "purport": 158,
-    "size": 238
+    "purport": 590,
+    "size": 670
 }, {
     "chapter": 4,
     "text": [6],
@@ -1424,8 +1424,8 @@
     "sanskrit": 14,
     "wbw": 44,
     "translation": 31,
-    "purport": 96,
-    "size": 185
+    "purport": 671,
+    "size": 760
 }, {
     "chapter": 4,
     "text": [7],
@@ -1433,8 +1433,8 @@
     "sanskrit": 12,
     "wbw": 33,
     "translation": 19,
-    "purport": 169,
-    "size": 233
+    "purport": 515,
+    "size": 579
 }, {
     "chapter": 4,
     "text": [8],
@@ -1442,8 +1442,8 @@
     "sanskrit": 10,
     "wbw": 26,
     "translation": 18,
-    "purport": 295,
-    "size": 349
+    "purport": 512,
+    "size": 566
 }, {
     "chapter": 4,
     "text": [9],
@@ -1460,8 +1460,8 @@
     "sanskrit": 15,
     "wbw": 38,
     "translation": 33,
-    "purport": 537,
-    "size": 623
+    "purport": 559,
+    "size": 645
 }, {
     "chapter": 4,
     "text": [11],
@@ -1469,8 +1469,8 @@
     "sanskrit": 13,
     "wbw": 34,
     "translation": 18,
-    "purport": 318,
-    "size": 383
+    "purport": 401,
+    "size": 466
 }, {
     "chapter": 4,
     "text": [12],
@@ -1478,8 +1478,8 @@
     "sanskrit": 14,
     "wbw": 42,
     "translation": 21,
-    "purport": 162,
-    "size": 239
+    "purport": 442,
+    "size": 519
 }, {
     "chapter": 4,
     "text": [13],
@@ -1514,8 +1514,8 @@
     "sanskrit": 16,
     "wbw": 38,
     "translation": 32,
-    "purport": 29,
-    "size": 115
+    "purport": 251,
+    "size": 337
 }, {
     "chapter": 4,
     "text": [17],
@@ -1586,8 +1586,8 @@
     "sanskrit": 12,
     "wbw": 43,
     "translation": 38,
-    "purport": 150,
-    "size": 243
+    "purport": 322,
+    "size": 415
 }, {
     "chapter": 4,
     "text": [25],
@@ -1622,9 +1622,9 @@
     "sanskrit": 14,
     "wbw": 54,
     "translation": 28,
-    "purport": 217,
+    "purport": 279,
     "footnote": 16,
-    "size": 329
+    "size": 391
 }, {
     "chapter": 4,
     "text": [29],
@@ -1632,8 +1632,8 @@
     "sanskrit": 16,
     "wbw": 81,
     "translation": 44,
-    "purport": 263,
-    "size": 404
+    "purport": 294,
+    "size": 435
 }, {
     "chapter": 4,
     "text": [30],
@@ -1686,8 +1686,8 @@
     "sanskrit": 15,
     "wbw": 39,
     "translation": 36,
-    "purport": 187,
-    "size": 277
+    "purport": 445,
+    "size": 535
 }, {
     "chapter": 4,
     "text": [36],
@@ -1767,8 +1767,8 @@
     "sanskrit": 17,
     "wbw": 46,
     "translation": 28,
-    "purport": 376,
-    "size": 467
+    "purport": 524,
+    "size": 615
 }, {
     "chapter": 5,
     "text": [3],
@@ -1857,8 +1857,8 @@
     "sanskrit": 14,
     "wbw": 38,
     "translation": 31,
-    "purport": 185,
-    "size": 268
+    "purport": 204,
+    "size": 287
 }, {
     "chapter": 5,
     "text": [14],
@@ -1875,8 +1875,8 @@
     "sanskrit": 12,
     "wbw": 38,
     "translation": 26,
-    "purport": 404,
-    "size": 480
+    "purport": 494,
+    "size": 570
 }, {
     "chapter": 5,
     "text": [16],
@@ -1884,8 +1884,8 @@
     "sanskrit": 14,
     "wbw": 30,
     "translation": 28,
-    "purport": 154,
-    "size": 226
+    "purport": 352,
+    "size": 424
 }, {
     "chapter": 5,
     "text": [17],
@@ -1938,8 +1938,8 @@
     "sanskrit": 16,
     "wbw": 41,
     "translation": 35,
-    "purport": 140,
-    "size": 232
+    "purport": 181,
+    "size": 273
 }, {
     "chapter": 5,
     "text": [23],
@@ -1965,8 +1965,8 @@
     "sanskrit": 13,
     "wbw": 44,
     "translation": 31,
-    "purport": 102,
-    "size": 190
+    "purport": 171,
+    "size": 259
 }, {
     "chapter": 5,
     "text": [26],
@@ -1974,8 +1974,8 @@
     "sanskrit": 11,
     "wbw": 38,
     "translation": 28,
-    "purport": 130,
-    "size": 207
+    "purport": 267,
+    "size": 344
 }, {
     "chapter": 5,
     "text": [27, 28],
@@ -1983,8 +1983,8 @@
     "sanskrit": 26,
     "wbw": 78,
     "translation": 48,
-    "purport": 46,
-    "size": 198
+    "purport": 278,
+    "size": 430
 }, {
     "chapter": 5,
     "text": [29],
@@ -1992,8 +1992,8 @@
     "sanskrit": 13,
     "wbw": 43,
     "translation": 36,
-    "purport": 177,
-    "size": 269
+    "purport": 472,
+    "size": 564
 }, {
     "chapter": 6,
     "text": [1],
@@ -2001,8 +2001,8 @@
     "sanskrit": 19,
     "wbw": 55,
     "translation": 37,
-    "purport": 203,
-    "size": 314
+    "purport": 325,
+    "size": 436
 }, {
     "chapter": 6,
     "text": [2],
@@ -2019,8 +2019,8 @@
     "sanskrit": 11,
     "wbw": 38,
     "translation": 27,
-    "purport": 90,
-    "size": 166
+    "purport": 176,
+    "size": 252
 }, {
     "chapter": 6,
     "text": [4],
@@ -2064,8 +2064,8 @@
     "sanskrit": 13,
     "wbw": 50,
     "translation": 41,
-    "purport": 65,
-    "size": 169
+    "purport": 189,
+    "size": 293
 }, {
     "chapter": 6,
     "text": [9],
@@ -2081,8 +2081,8 @@
     "sanskrit": 11,
     "wbw": 47,
     "translation": 33,
-    "purport": 175,
-    "size": 266
+    "purport": 407,
+    "size": 498
 }, {
     "chapter": 6,
     "text": [11, 12],
@@ -2099,8 +2099,8 @@
     "sanskrit": 26,
     "wbw": 76,
     "translation": 44,
-    "purport": 419,
-    "size": 565
+    "purport": 527,
+    "size": 673
 }, {
     "chapter": 6,
     "text": [15],
@@ -2108,8 +2108,8 @@
     "sanskrit": 12,
     "wbw": 39,
     "translation": 23,
-    "purport": 125,
-    "size": 199
+    "purport": 299,
+    "size": 373
 }, {
     "chapter": 6,
     "text": [16],
@@ -2135,8 +2135,8 @@
     "sanskrit": 12,
     "wbw": 32,
     "translation": 19,
-    "purport": 221,
-    "size": 284
+    "purport": 339,
+    "size": 402
 }, {
     "chapter": 6,
     "text": [19],
@@ -2153,8 +2153,8 @@
     "sanskrit": 44,
     "wbw": 128,
     "translation": 82,
-    "purport": 254,
-    "size": 508
+    "purport": 717,
+    "size": 971
 }, {
     "chapter": 6,
     "text": [24],
@@ -2162,8 +2162,8 @@
     "sanskrit": 16,
     "wbw": 41,
     "translation": 32,
-    "purport": 113,
-    "size": 202
+    "purport": 277,
+    "size": 366
 }, {
     "chapter": 6,
     "text": [25],
@@ -2207,8 +2207,8 @@
     "sanskrit": 13,
     "wbw": 36,
     "translation": 27,
-    "purport": 173,
-    "size": 249
+    "purport": 302,
+    "size": 378
 }, {
     "chapter": 6,
     "text": [30],
@@ -2216,8 +2216,8 @@
     "sanskrit": 16,
     "wbw": 39,
     "translation": 26,
-    "purport": 206,
-    "size": 287
+    "purport": 245,
+    "size": 326
 }, {
     "chapter": 6,
     "text": [31],
@@ -2225,8 +2225,8 @@
     "sanskrit": 15,
     "wbw": 42,
     "translation": 21,
-    "purport": 223,
-    "size": 301
+    "purport": 276,
+    "size": 354
 }, {
     "chapter": 6,
     "text": [32],
@@ -2288,8 +2288,8 @@
     "sanskrit": 12,
     "wbw": 35,
     "translation": 26,
-    "purport": 114,
-    "size": 187
+    "purport": 195,
+    "size": 268
 }, {
     "chapter": 6,
     "text": [39],
@@ -2306,8 +2306,8 @@
     "sanskrit": 17,
     "wbw": 54,
     "translation": 31,
-    "purport": 266,
-    "size": 368
+    "purport": 566,
+    "size": 668
 }, {
     "chapter": 6,
     "text": [41],
@@ -2315,8 +2315,8 @@
     "sanskrit": 13,
     "wbw": 36,
     "translation": 28,
-    "purport": 60,
-    "size": 137
+    "purport": 124,
+    "size": 201
 }, {
     "chapter": 6,
     "text": [42],
@@ -2369,9 +2369,9 @@
     "sanskrit": 14,
     "wbw": 48,
     "translation": 40,
-    "purport": 197,
+    "purport": 725,
     "footnote": 10,
-    "size": 309
+    "size": 837
 }, {
     "chapter": 7,
     "text": [1],
@@ -2379,8 +2379,8 @@
     "sanskrit": 18,
     "wbw": 49,
     "translation": 33,
-    "purport": 268,
-    "size": 368
+    "purport": 570,
+    "size": 670
 }, {
     "chapter": 7,
     "text": [2],
@@ -2397,8 +2397,8 @@
     "sanskrit": 12,
     "wbw": 34,
     "translation": 20,
-    "purport": 271,
-    "size": 337
+    "purport": 528,
+    "size": 594
 }, {
     "chapter": 7,
     "text": [4],
@@ -2406,8 +2406,8 @@
     "sanskrit": 15,
     "wbw": 37,
     "translation": 19,
-    "purport": 127,
-    "size": 198
+    "purport": 493,
+    "size": 564
 }, {
     "chapter": 7,
     "text": [5],
@@ -2415,8 +2415,8 @@
     "sanskrit": 15,
     "wbw": 37,
     "translation": 22,
-    "purport": 265,
-    "size": 339
+    "purport": 432,
+    "size": 506
 }, {
     "chapter": 7,
     "text": [6],
@@ -2433,8 +2433,8 @@
     "sanskrit": 14,
     "wbw": 40,
     "translation": 17,
-    "purport": 309,
-    "size": 380
+    "purport": 374,
+    "size": 445
 }, {
     "chapter": 7,
     "text": [8],
@@ -2442,8 +2442,8 @@
     "sanskrit": 14,
     "wbw": 44,
     "translation": 25,
-    "purport": 69,
-    "size": 152
+    "purport": 305,
+    "size": 388
 }, {
     "chapter": 7,
     "text": [9],
@@ -2451,8 +2451,8 @@
     "sanskrit": 13,
     "wbw": 37,
     "translation": 16,
-    "purport": 70,
-    "size": 136
+    "purport": 174,
+    "size": 240
 }, {
     "chapter": 7,
     "text": [10],
@@ -2487,8 +2487,8 @@
     "sanskrit": 14,
     "wbw": 34,
     "translation": 20,
-    "purport": 22,
-    "size": 90
+    "purport": 314,
+    "size": 382
 }, {
     "chapter": 7,
     "text": [14],
@@ -2496,8 +2496,8 @@
     "sanskrit": 16,
     "wbw": 41,
     "translation": 25,
-    "purport": 209,
-    "size": 291
+    "purport": 476,
+    "size": 558
 }, {
     "chapter": 7,
     "text": [15],
@@ -2505,8 +2505,8 @@
     "sanskrit": 11,
     "wbw": 30,
     "translation": 23,
-    "purport": 98,
-    "size": 162
+    "purport": 1498,
+    "size": 1562
 }, {
     "chapter": 7,
     "text": [16],
@@ -2514,8 +2514,8 @@
     "sanskrit": 13,
     "wbw": 39,
     "translation": 24,
-    "purport": 154,
-    "size": 230
+    "purport": 379,
+    "size": 455
 }, {
     "chapter": 7,
     "text": [17],
@@ -2532,8 +2532,8 @@
     "sanskrit": 15,
     "wbw": 47,
     "translation": 35,
-    "purport": 192,
-    "size": 289
+    "purport": 198,
+    "size": 295
 }, {
     "chapter": 7,
     "text": [19],
@@ -2541,8 +2541,8 @@
     "sanskrit": 13,
     "wbw": 37,
     "translation": 31,
-    "purport": 227,
-    "size": 308
+    "purport": 337,
+    "size": 418
 }, {
     "chapter": 7,
     "text": [20],
@@ -2550,8 +2550,8 @@
     "sanskrit": 15,
     "wbw": 30,
     "translation": 20,
-    "purport": 112,
-    "size": 177
+    "purport": 279,
+    "size": 344
 }, {
     "chapter": 7,
     "text": [21],
@@ -2559,8 +2559,8 @@
     "sanskrit": 15,
     "wbw": 33,
     "translation": 29,
-    "purport": 146,
-    "size": 223
+    "purport": 339,
+    "size": 416
 }, {
     "chapter": 7,
     "text": [22],
@@ -2568,8 +2568,8 @@
     "sanskrit": 14,
     "wbw": 35,
     "translation": 22,
-    "purport": 142,
-    "size": 213
+    "purport": 190,
+    "size": 261
 }, {
     "chapter": 7,
     "text": [23],
@@ -2577,8 +2577,8 @@
     "sanskrit": 17,
     "wbw": 39,
     "translation": 28,
-    "purport": 90,
-    "size": 174
+    "purport": 353,
+    "size": 437
 }, {
     "chapter": 7,
     "text": [24],
@@ -2586,8 +2586,8 @@
     "sanskrit": 11,
     "wbw": 27,
     "translation": 42,
-    "purport": 317,
-    "size": 397
+    "purport": 835,
+    "size": 915
 }, {
     "chapter": 7,
     "text": [25],
@@ -2595,8 +2595,8 @@
     "sanskrit": 13,
     "wbw": 30,
     "translation": 25,
-    "purport": 236,
-    "size": 304
+    "purport": 369,
+    "size": 437
 }, {
     "chapter": 7,
     "text": [26],
@@ -2604,8 +2604,8 @@
     "sanskrit": 12,
     "wbw": 41,
     "translation": 30,
-    "purport": 102,
-    "size": 185
+    "purport": 307,
+    "size": 390
 }, {
     "chapter": 7,
     "text": [27],
@@ -2622,8 +2622,8 @@
     "sanskrit": 16,
     "wbw": 37,
     "translation": 29,
-    "purport": 107,
-    "size": 189
+    "purport": 213,
+    "size": 295
 }, {
     "chapter": 7,
     "text": [29],
@@ -2631,8 +2631,8 @@
     "sanskrit": 15,
     "wbw": 37,
     "translation": 31,
-    "purport": 98,
-    "size": 181
+    "purport": 254,
+    "size": 337
 }, {
     "chapter": 7,
     "text": [30],
@@ -2640,8 +2640,8 @@
     "sanskrit": 15,
     "wbw": 47,
     "translation": 32,
-    "purport": 74,
-    "size": 168
+    "purport": 338,
+    "size": 432
 }, {
     "chapter": 8,
     "text": [1],
@@ -2649,8 +2649,8 @@
     "sanskrit": 17,
     "wbw": 39,
     "translation": 32,
-    "purport": 87,
-    "size": 175
+    "purport": 115,
+    "size": 203
 }, {
     "chapter": 8,
     "text": [2],
@@ -2658,8 +2658,8 @@
     "sanskrit": 14,
     "wbw": 41,
     "translation": 26,
-    "purport": 55,
-    "size": 136
+    "purport": 324,
+    "size": 405
 }, {
     "chapter": 8,
     "text": [3],
@@ -2667,8 +2667,8 @@
     "sanskrit": 15,
     "wbw": 40,
     "translation": 35,
-    "purport": 88,
-    "size": 178
+    "purport": 490,
+    "size": 580
 }, {
     "chapter": 8,
     "text": [4],
@@ -2676,8 +2676,8 @@
     "sanskrit": 12,
     "wbw": 49,
     "translation": 45,
-    "purport": 134,
-    "size": 240
+    "purport": 199,
+    "size": 305
 }, {
     "chapter": 8,
     "text": [5],
@@ -2712,8 +2712,8 @@
     "sanskrit": 11,
     "wbw": 37,
     "translation": 28,
-    "purport": 50,
-    "size": 126
+    "purport": 233,
+    "size": 309
 }, {
     "chapter": 8,
     "text": [9],
@@ -2730,8 +2730,8 @@
     "sanskrit": 19,
     "wbw": 51,
     "translation": 34,
-    "purport": 91,
-    "size": 195
+    "purport": 152,
+    "size": 256
 }, {
     "chapter": 8,
     "text": [11],
@@ -2739,8 +2739,8 @@
     "sanskrit": 19,
     "wbw": 46,
     "translation": 41,
-    "purport": 73,
-    "size": 179
+    "purport": 211,
+    "size": 317
 }, {
     "chapter": 8,
     "text": [12],
@@ -2766,8 +2766,8 @@
     "sanskrit": 13,
     "wbw": 36,
     "translation": 19,
-    "purport": 183,
-    "size": 251
+    "purport": 625,
+    "size": 693
 }, {
     "chapter": 8,
     "text": [15],
@@ -2793,8 +2793,8 @@
     "sanskrit": 15,
     "wbw": 39,
     "translation": 15,
-    "purport": 235,
-    "size": 304
+    "purport": 309,
+    "size": 378
 }, {
     "chapter": 8,
     "text": [18],
@@ -2828,8 +2828,8 @@
     "sanskrit": 16,
     "wbw": 32,
     "translation": 29,
-    "purport": 108,
-    "size": 185
+    "purport": 230,
+    "size": 307
 }, {
     "chapter": 8,
     "text": [22],
@@ -2837,8 +2837,8 @@
     "sanskrit": 15,
     "wbw": 50,
     "translation": 37,
-    "purport": 137,
-    "size": 239
+    "purport": 343,
+    "size": 445
 }, {
     "chapter": 8,
     "text": [23],
@@ -2846,8 +2846,8 @@
     "sanskrit": 13,
     "wbw": 36,
     "translation": 31,
-    "purport": 75,
-    "size": 155
+    "purport": 136,
+    "size": 216
 }, {
     "chapter": 8,
     "text": [24],
@@ -2882,8 +2882,8 @@
     "sanskrit": 13,
     "wbw": 38,
     "translation": 23,
-    "purport": 89,
-    "size": 163
+    "purport": 170,
+    "size": 244
 }, {
     "chapter": 8,
     "text": [28],
@@ -2891,8 +2891,8 @@
     "sanskrit": 19,
     "wbw": 53,
     "translation": 42,
-    "purport": 92,
-    "size": 206
+    "purport": 576,
+    "size": 690
 }, {
     "chapter": 9,
     "text": [1],
@@ -2900,8 +2900,8 @@
     "sanskrit": 17,
     "wbw": 41,
     "translation": 28,
-    "purport": 58,
-    "size": 144
+    "purport": 534,
+    "size": 620
 }, {
     "chapter": 9,
     "text": [2],
@@ -2909,8 +2909,8 @@
     "sanskrit": 13,
     "wbw": 33,
     "translation": 34,
-    "purport": 435,
-    "size": 515
+    "purport": 1667,
+    "size": 1747
 }, {
     "chapter": 9,
     "text": [3],
@@ -2918,8 +2918,8 @@
     "sanskrit": 10,
     "wbw": 34,
     "translation": 30,
-    "purport": 196,
-    "size": 270
+    "purport": 598,
+    "size": 672
 }, {
     "chapter": 9,
     "text": [4],
@@ -2927,8 +2927,8 @@
     "sanskrit": 15,
     "wbw": 36,
     "translation": 19,
-    "purport": 171,
-    "size": 241
+    "purport": 302,
+    "size": 372
 }, {
     "chapter": 9,
     "text": [5],
@@ -2936,8 +2936,8 @@
     "sanskrit": 18,
     "wbw": 44,
     "translation": 34,
-    "purport": 114,
-    "size": 210
+    "purport": 282,
+    "size": 378
 }, {
     "chapter": 9,
     "text": [6],
@@ -2945,8 +2945,8 @@
     "sanskrit": 13,
     "wbw": 36,
     "translation": 21,
-    "purport": 228,
-    "size": 298
+    "purport": 292,
+    "size": 362
 }, {
     "chapter": 9,
     "text": [7],
@@ -2963,8 +2963,8 @@
     "sanskrit": 13,
     "wbw": 30,
     "translation": 25,
-    "purport": 90,
-    "size": 158
+    "purport": 248,
+    "size": 316
 }, {
     "chapter": 9,
     "text": [9],
@@ -2990,8 +2990,8 @@
     "sanskrit": 12,
     "wbw": 28,
     "translation": 22,
-    "purport": 227,
-    "size": 289
+    "purport": 1152,
+    "size": 1214
 }, {
     "chapter": 9,
     "text": [12],
@@ -2999,8 +2999,8 @@
     "sanskrit": 12,
     "wbw": 42,
     "translation": 29,
-    "purport": 283,
-    "size": 366
+    "purport": 316,
+    "size": 399
 }, {
     "chapter": 9,
     "text": [13],
@@ -3008,8 +3008,8 @@
     "sanskrit": 13,
     "wbw": 39,
     "translation": 33,
-    "purport": 120,
-    "size": 205
+    "purport": 222,
+    "size": 307
 }, {
     "chapter": 9,
     "text": [14],
@@ -3017,8 +3017,8 @@
     "sanskrit": 14,
     "wbw": 30,
     "translation": 22,
-    "purport": 81,
-    "size": 147
+    "purport": 322,
+    "size": 388
 }, {
     "chapter": 9,
     "text": [15],
@@ -3062,8 +3062,8 @@
     "sanskrit": 15,
     "wbw": 36,
     "translation": 23,
-    "purport": 102,
-    "size": 176
+    "purport": 137,
+    "size": 211
 }, {
     "chapter": 9,
     "text": [20],
@@ -3125,8 +3125,8 @@
     "sanskrit": 14,
     "wbw": 37,
     "translation": 19,
-    "purport": 254,
-    "size": 324
+    "purport": 735,
+    "size": 805
 }, {
     "chapter": 9,
     "text": [27],
@@ -3143,8 +3143,8 @@
     "sanskrit": 12,
     "wbw": 31,
     "translation": 28,
-    "purport": 178,
-    "size": 249
+    "purport": 335,
+    "size": 406
 }, {
     "chapter": 9,
     "text": [29],
@@ -3152,8 +3152,8 @@
     "sanskrit": 20,
     "wbw": 52,
     "translation": 38,
-    "purport": 293,
-    "size": 403
+    "purport": 369,
+    "size": 479
 }, {
     "chapter": 9,
     "text": [30],
@@ -3161,8 +3161,8 @@
     "sanskrit": 16,
     "wbw": 40,
     "translation": 24,
-    "purport": 363,
-    "size": 443
+    "purport": 581,
+    "size": 661
 }, {
     "chapter": 9,
     "text": [31],
@@ -3188,8 +3188,8 @@
     "sanskrit": 14,
     "wbw": 34,
     "translation": 30,
-    "purport": 101,
-    "size": 179
+    "purport": 177,
+    "size": 255
 }, {
     "chapter": 9,
     "text": [34],
@@ -3197,8 +3197,8 @@
     "sanskrit": 15,
     "wbw": 39,
     "translation": 22,
-    "purport": 163,
-    "size": 239
+    "purport": 569,
+    "size": 645
 }, {
     "chapter": 10,
     "text": [1],
@@ -3206,8 +3206,8 @@
     "sanskrit": 18,
     "wbw": 39,
     "translation": 32,
-    "purport": 124,
-    "size": 213
+    "purport": 206,
+    "size": 295
 }, {
     "chapter": 10,
     "text": [2],
@@ -3215,8 +3215,8 @@
     "sanskrit": 15,
     "wbw": 35,
     "translation": 17,
-    "purport": 175,
-    "size": 242
+    "purport": 385,
+    "size": 452
 }, {
     "chapter": 10,
     "text": [3],
@@ -3224,8 +3224,8 @@
     "sanskrit": 14,
     "wbw": 40,
     "translation": 25,
-    "purport": 79,
-    "size": 158
+    "purport": 614,
+    "size": 693
 }, {
     "chapter": 10,
     "text": [4, 5],
@@ -3233,8 +3233,8 @@
     "sanskrit": 29,
     "wbw": 67,
     "translation": 41,
-    "purport": 12,
-    "size": 149
+    "purport": 1277,
+    "size": 1414
 }, {
     "chapter": 10,
     "text": [6],
@@ -3251,8 +3251,8 @@
     "sanskrit": 14,
     "wbw": 32,
     "translation": 24,
-    "purport": 97,
-    "size": 167
+    "purport": 202,
+    "size": 272
 }, {
     "chapter": 10,
     "text": [8],
@@ -3260,8 +3260,8 @@
     "sanskrit": 13,
     "wbw": 28,
     "translation": 21,
-    "purport": 268,
-    "size": 330
+    "purport": 495,
+    "size": 557
 }, {
     "chapter": 10,
     "text": [9],
@@ -3269,8 +3269,8 @@
     "sanskrit": 15,
     "wbw": 41,
     "translation": 29,
-    "purport": 64,
-    "size": 149
+    "purport": 420,
+    "size": 505
 }, {
     "chapter": 10,
     "text": [10],
@@ -3278,8 +3278,8 @@
     "sanskrit": 14,
     "wbw": 30,
     "translation": 18,
-    "purport": 143,
-    "size": 205
+    "purport": 316,
+    "size": 378
 }, {
     "chapter": 10,
     "text": [11],
@@ -3287,8 +3287,8 @@
     "sanskrit": 13,
     "wbw": 33,
     "translation": 17,
-    "purport": 145,
-    "size": 208
+    "purport": 432,
+    "size": 495
 }, {
     "chapter": 10,
     "text": [12, 13],
@@ -3296,8 +3296,8 @@
     "sanskrit": 30,
     "wbw": 65,
     "translation": 40,
-    "purport": 174,
-    "size": 309
+    "purport": 458,
+    "size": 593
 }, {
     "chapter": 10,
     "text": [14],
@@ -3314,8 +3314,8 @@
     "sanskrit": 12,
     "wbw": 39,
     "translation": 24,
-    "purport": 337,
-    "size": 412
+    "purport": 342,
+    "size": 417
 }, {
     "chapter": 10,
     "text": [16],
@@ -3341,8 +3341,8 @@
     "sanskrit": 13,
     "wbw": 34,
     "translation": 35,
-    "purport": 89,
-    "size": 171
+    "purport": 170,
+    "size": 252
 }, {
     "chapter": 10,
     "text": [19],
@@ -3350,8 +3350,8 @@
     "sanskrit": 17,
     "wbw": 40,
     "translation": 24,
-    "purport": 177,
-    "size": 258
+    "purport": 227,
+    "size": 308
 }, {
     "chapter": 10,
     "text": [20],
@@ -3359,8 +3359,8 @@
     "sanskrit": 15,
     "wbw": 36,
     "translation": 17,
-    "purport": 54,
-    "size": 122
+    "purport": 297,
+    "size": 365
 }, {
     "chapter": 10,
     "text": [21],
@@ -3368,8 +3368,8 @@
     "sanskrit": 12,
     "wbw": 30,
     "translation": 18,
-    "purport": 36,
-    "size": 96
+    "purport": 114,
+    "size": 174
 }, {
     "chapter": 10,
     "text": [22],
@@ -3422,8 +3422,8 @@
     "sanskrit": 10,
     "wbw": 33,
     "translation": 21,
-    "purport": 52,
-    "size": 116
+    "purport": 138,
+    "size": 202
 }, {
     "chapter": 10,
     "text": [28],
@@ -3449,8 +3449,8 @@
     "sanskrit": 13,
     "wbw": 34,
     "translation": 20,
-    "purport": 54,
-    "size": 121
+    "purport": 93,
+    "size": 160
 }, {
     "chapter": 10,
     "text": [31],
@@ -3467,8 +3467,8 @@
     "sanskrit": 13,
     "wbw": 36,
     "translation": 26,
-    "purport": 55,
-    "size": 130
+    "purport": 146,
+    "size": 221
 }, {
     "chapter": 10,
     "text": [33],
@@ -3476,8 +3476,8 @@
     "sanskrit": 13,
     "wbw": 34,
     "translation": 20,
-    "purport": 56,
-    "size": 123
+    "purport": 98,
+    "size": 165
 }, {
     "chapter": 10,
     "text": [34],
@@ -3485,9 +3485,9 @@
     "sanskrit": 16,
     "wbw": 40,
     "translation": 23,
-    "purport": 72,
+    "purport": 192,
     "footnote": 15,
-    "size": 166
+    "size": 286
 }, {
     "chapter": 10,
     "text": [35],
@@ -3495,8 +3495,8 @@
     "sanskrit": 13,
     "wbw": 35,
     "translation": 27,
-    "purport": 34,
-    "size": 109
+    "purport": 235,
+    "size": 310
 }, {
     "chapter": 10,
     "text": [36],
@@ -3504,8 +3504,8 @@
     "sanskrit": 13,
     "wbw": 36,
     "translation": 20,
-    "purport": 74,
-    "size": 143
+    "purport": 147,
+    "size": 216
 }, {
     "chapter": 10,
     "text": [37],
@@ -3513,8 +3513,8 @@
     "sanskrit": 12,
     "wbw": 35,
     "translation": 20,
-    "purport": 110,
-    "size": 177
+    "purport": 197,
+    "size": 264
 }, {
     "chapter": 10,
     "text": [38],
@@ -3558,8 +3558,8 @@
     "sanskrit": 12,
     "wbw": 35,
     "translation": 18,
-    "purport": 127,
-    "size": 192
+    "purport": 356,
+    "size": 421
 }, {
     "chapter": 11,
     "text": [1],
@@ -3567,8 +3567,8 @@
     "sanskrit": 16,
     "wbw": 38,
     "translation": 23,
-    "purport": 39,
-    "size": 116
+    "purport": 207,
+    "size": 284
 }, {
     "chapter": 11,
     "text": [2],
@@ -3630,8 +3630,8 @@
     "sanskrit": 16,
     "wbw": 35,
     "translation": 20,
-    "purport": 138,
-    "size": 209
+    "purport": 366,
+    "size": 437
 }, {
     "chapter": 11,
     "text": [9],
@@ -3674,8 +3674,8 @@
     "sanskrit": 11,
     "wbw": 36,
     "translation": 19,
-    "purport": 98,
-    "size": 164
+    "purport": 172,
+    "size": 238
 }, {
     "chapter": 11,
     "text": [15],
@@ -3817,8 +3817,8 @@
     "sanskrit": 23,
     "wbw": 51,
     "translation": 31,
-    "purport": 105,
-    "size": 210
+    "purport": 190,
+    "size": 295
 }, {
     "chapter": 11,
     "text": [33],
@@ -3907,8 +3907,8 @@
     "sanskrit": 21,
     "wbw": 52,
     "translation": 48,
-    "purport": 325,
-    "size": 446
+    "purport": 401,
+    "size": 522
 }, {
     "chapter": 11,
     "text": [44],
@@ -3952,8 +3952,8 @@
     "sanskrit": 22,
     "wbw": 53,
     "translation": 45,
-    "purport": 99,
-    "size": 219
+    "purport": 495,
+    "size": 615
 }, {
     "chapter": 11,
     "text": [49],
@@ -3988,8 +3988,8 @@
     "sanskrit": 18,
     "wbw": 39,
     "translation": 25,
-    "purport": 224,
-    "size": 306
+    "purport": 589,
+    "size": 671
 }, {
     "chapter": 11,
     "text": [53],
@@ -4006,8 +4006,8 @@
     "sanskrit": 15,
     "wbw": 39,
     "translation": 30,
-    "purport": 640,
-    "size": 724
+    "purport": 1195,
+    "size": 1279
 }, {
     "chapter": 11,
     "text": [55],
@@ -4015,8 +4015,8 @@
     "sanskrit": 17,
     "wbw": 60,
     "translation": 41,
-    "purport": 650,
-    "size": 768
+    "purport": 1198,
+    "size": 1316
 }, {
     "chapter": 12,
     "text": [1],
@@ -4024,8 +4024,8 @@
     "sanskrit": 17,
     "wbw": 45,
     "translation": 23,
-    "purport": 161,
-    "size": 246
+    "purport": 481,
+    "size": 566
 }, {
     "chapter": 12,
     "text": [2],
@@ -4042,8 +4042,8 @@
     "sanskrit": 27,
     "wbw": 60,
     "translation": 46,
-    "purport": 115,
-    "size": 248
+    "purport": 182,
+    "size": 315
 }, {
     "chapter": 12,
     "text": [5],
@@ -4051,8 +4051,8 @@
     "sanskrit": 11,
     "wbw": 29,
     "translation": 28,
-    "purport": 198,
-    "size": 266
+    "purport": 711,
+    "size": 779
 }, {
     "chapter": 12,
     "text": [6, 7],
@@ -4060,8 +4060,8 @@
     "sanskrit": 26,
     "wbw": 67,
     "translation": 43,
-    "purport": 405,
-    "size": 541
+    "purport": 659,
+    "size": 795
 }, {
     "chapter": 12,
     "text": [8],
@@ -4078,8 +4078,8 @@
     "sanskrit": 13,
     "wbw": 33,
     "translation": 31,
-    "purport": 62,
-    "size": 139
+    "purport": 323,
+    "size": 400
 }, {
     "chapter": 12,
     "text": [10],
@@ -4105,8 +4105,8 @@
     "sanskrit": 14,
     "wbw": 35,
     "translation": 37,
-    "purport": 150,
-    "size": 236
+    "purport": 305,
+    "size": 391
 }, {
     "chapter": 12,
     "text": [13, 14],
@@ -4168,8 +4168,8 @@
     "sanskrit": 37,
     "wbw": 83,
     "translation": 27,
-    "purport": 326,
-    "size": 473
+    "purport": 522,
+    "size": 669
 }, {
     "chapter": 13,
     "text": [3],
@@ -4177,8 +4177,8 @@
     "sanskrit": 16,
     "wbw": 46,
     "translation": 28,
-    "purport": 301,
-    "size": 391
+    "purport": 645,
+    "size": 735
 }, {
     "chapter": 13,
     "text": [4],
@@ -4195,8 +4195,8 @@
     "sanskrit": 12,
     "wbw": 32,
     "translation": 26,
-    "purport": 200,
-    "size": 270
+    "purport": 550,
+    "size": 620
 }, {
     "chapter": 13,
     "text": [6, 7],
@@ -4204,8 +4204,8 @@
     "sanskrit": 26,
     "wbw": 65,
     "translation": 42,
-    "purport": 185,
-    "size": 318
+    "purport": 307,
+    "size": 440
 }, {
     "chapter": 13,
     "text": [8, 12],
@@ -4213,8 +4213,8 @@
     "sanskrit": 56,
     "wbw": 156,
     "translation": 85,
-    "purport": 245,
-    "size": 542
+    "purport": 1998,
+    "size": 2295
 }, {
     "chapter": 13,
     "text": [13],
@@ -4222,8 +4222,8 @@
     "sanskrit": 16,
     "wbw": 42,
     "translation": 33,
-    "purport": 116,
-    "size": 207
+    "purport": 203,
+    "size": 294
 }, {
     "chapter": 13,
     "text": [14],
@@ -4240,8 +4240,8 @@
     "sanskrit": 12,
     "wbw": 41,
     "translation": 35,
-    "purport": 249,
-    "size": 337
+    "purport": 399,
+    "size": 487
 }, {
     "chapter": 13,
     "text": [16],
@@ -4267,8 +4267,8 @@
     "sanskrit": 14,
     "wbw": 36,
     "translation": 26,
-    "purport": 131,
-    "size": 207
+    "purport": 311,
+    "size": 387
 }, {
     "chapter": 13,
     "text": [19],
@@ -4276,8 +4276,8 @@
     "sanskrit": 13,
     "wbw": 33,
     "translation": 27,
-    "purport": 124,
-    "size": 197
+    "purport": 279,
+    "size": 352
 }, {
     "chapter": 13,
     "text": [20],
@@ -4285,8 +4285,8 @@
     "sanskrit": 14,
     "wbw": 39,
     "translation": 23,
-    "purport": 85,
-    "size": 161
+    "purport": 334,
+    "size": 410
 }, {
     "chapter": 13,
     "text": [21],
@@ -4303,8 +4303,8 @@
     "sanskrit": 16,
     "wbw": 44,
     "translation": 31,
-    "purport": 121,
-    "size": 212
+    "purport": 286,
+    "size": 377
 }, {
     "chapter": 13,
     "text": [23],
@@ -4312,8 +4312,8 @@
     "sanskrit": 12,
     "wbw": 35,
     "translation": 26,
-    "purport": 188,
-    "size": 261
+    "purport": 380,
+    "size": 453
 }, {
     "chapter": 13,
     "text": [24],
@@ -4330,8 +4330,8 @@
     "sanskrit": 11,
     "wbw": 34,
     "translation": 23,
-    "purport": 67,
-    "size": 135
+    "purport": 254,
+    "size": 322
 }, {
     "chapter": 13,
     "text": [26],
@@ -4420,8 +4420,8 @@
     "sanskrit": 15,
     "wbw": 36,
     "translation": 30,
-    "purport": 42,
-    "size": 123
+    "purport": 227,
+    "size": 308
 }, {
     "chapter": 14,
     "text": [1],
@@ -4438,8 +4438,8 @@
     "sanskrit": 13,
     "wbw": 39,
     "translation": 33,
-    "purport": 62,
-    "size": 147
+    "purport": 231,
+    "size": 316
 }, {
     "chapter": 14,
     "text": [3],
@@ -4447,8 +4447,8 @@
     "sanskrit": 14,
     "wbw": 35,
     "translation": 27,
-    "purport": 153,
-    "size": 229
+    "purport": 246,
+    "size": 322
 }, {
     "chapter": 14,
     "text": [4],
@@ -4474,8 +4474,8 @@
     "sanskrit": 11,
     "wbw": 39,
     "translation": 29,
-    "purport": 132,
-    "size": 211
+    "purport": 264,
+    "size": 343
 }, {
     "chapter": 14,
     "text": [7],
@@ -4564,8 +4564,8 @@
     "sanskrit": 12,
     "wbw": 33,
     "translation": 24,
-    "purport": 275,
-    "size": 344
+    "purport": 499,
+    "size": 568
 }, {
     "chapter": 14,
     "text": [17],
@@ -4582,8 +4582,8 @@
     "sanskrit": 14,
     "wbw": 42,
     "translation": 36,
-    "purport": 91,
-    "size": 183
+    "purport": 298,
+    "size": 390
 }, {
     "chapter": 14,
     "text": [19],
@@ -4618,8 +4618,8 @@
     "sanskrit": 55,
     "wbw": 159,
     "translation": 114,
-    "purport": 197,
-    "size": 525
+    "purport": 378,
+    "size": 706
 }, {
     "chapter": 14,
     "text": [26],
@@ -4636,8 +4636,8 @@
     "sanskrit": 10,
     "wbw": 28,
     "translation": 14,
-    "purport": 315,
-    "size": 367
+    "purport": 566,
+    "size": 618
 }, {
     "chapter": 15,
     "text": [1],
@@ -4645,8 +4645,8 @@
     "sanskrit": 19,
     "wbw": 45,
     "translation": 26,
-    "purport": 36,
-    "size": 126
+    "purport": 595,
+    "size": 685
 }, {
     "chapter": 15,
     "text": [2],
@@ -4654,8 +4654,8 @@
     "sanskrit": 16,
     "wbw": 41,
     "translation": 34,
-    "purport": 100,
-    "size": 191
+    "purport": 241,
+    "size": 332
 }, {
     "chapter": 15,
     "text": [3, 4],
@@ -4663,8 +4663,8 @@
     "sanskrit": 37,
     "wbw": 97,
     "translation": 55,
-    "purport": 131,
-    "size": 320
+    "purport": 306,
+    "size": 495
 }, {
     "chapter": 15,
     "text": [5],
@@ -4681,8 +4681,8 @@
     "sanskrit": 16,
     "wbw": 34,
     "translation": 25,
-    "purport": 96,
-    "size": 171
+    "purport": 408,
+    "size": 483
 }, {
     "chapter": 15,
     "text": [7],
@@ -4690,8 +4690,8 @@
     "sanskrit": 11,
     "wbw": 38,
     "translation": 27,
-    "purport": 228,
-    "size": 304
+    "purport": 657,
+    "size": 733
 }, {
     "chapter": 15,
     "text": [8],
@@ -4735,8 +4735,8 @@
     "sanskrit": 15,
     "wbw": 35,
     "translation": 20,
-    "purport": 97,
-    "size": 167
+    "purport": 287,
+    "size": 357
 }, {
     "chapter": 15,
     "text": [13],
@@ -4762,8 +4762,8 @@
     "sanskrit": 21,
     "wbw": 53,
     "translation": 27,
-    "purport": 223,
-    "size": 324
+    "purport": 475,
+    "size": 576
 }, {
     "chapter": 15,
     "text": [16],
@@ -4771,8 +4771,8 @@
     "sanskrit": 15,
     "wbw": 37,
     "translation": 24,
-    "purport": 125,
-    "size": 201
+    "purport": 291,
+    "size": 367
 }, {
     "chapter": 15,
     "text": [17],
@@ -4789,8 +4789,8 @@
     "sanskrit": 14,
     "wbw": 36,
     "translation": 25,
-    "purport": 104,
-    "size": 179
+    "purport": 236,
+    "size": 311
 }, {
     "chapter": 15,
     "text": [19],
@@ -4798,8 +4798,8 @@
     "sanskrit": 14,
     "wbw": 36,
     "translation": 24,
-    "purport": 94,
-    "size": 168
+    "purport": 305,
+    "size": 379
 }, {
     "chapter": 15,
     "text": [20],
@@ -4807,8 +4807,8 @@
     "sanskrit": 14,
     "wbw": 42,
     "translation": 24,
-    "purport": 127,
-    "size": 207
+    "purport": 336,
+    "size": 416
 }, {
     "chapter": 16,
     "text": [1, 3],
@@ -4816,8 +4816,8 @@
     "sanskrit": 42,
     "wbw": 106,
     "translation": 66,
-    "purport": 138,
-    "size": 352
+    "purport": 2225,
+    "size": 2439
 }, {
     "chapter": 16,
     "text": [4],
@@ -4852,8 +4852,8 @@
     "sanskrit": 16,
     "wbw": 42,
     "translation": 20,
-    "purport": 155,
-    "size": 233
+    "purport": 384,
+    "size": 462
 }, {
     "chapter": 16,
     "text": [8],
@@ -4888,8 +4888,8 @@
     "sanskrit": 22,
     "wbw": 70,
     "translation": 34,
-    "purport": 120,
-    "size": 246
+    "purport": 215,
+    "size": 341
 }, {
     "chapter": 16,
     "text": [13, 15],
@@ -4905,8 +4905,8 @@
     "sanskrit": 12,
     "wbw": 26,
     "translation": 23,
-    "purport": 222,
-    "size": 283
+    "purport": 426,
+    "size": 487
 }, {
     "chapter": 16,
     "text": [17],
@@ -4968,8 +4968,8 @@
     "sanskrit": 16,
     "wbw": 37,
     "translation": 21,
-    "purport": 145,
-    "size": 219
+    "purport": 215,
+    "size": 289
 }, {
     "chapter": 16,
     "text": [24],
@@ -4977,8 +4977,8 @@
     "sanskrit": 12,
     "wbw": 38,
     "translation": 29,
-    "purport": 193,
-    "size": 272
+    "purport": 397,
+    "size": 476
 }, {
     "chapter": 17,
     "text": [1],
@@ -5004,8 +5004,8 @@
     "sanskrit": 15,
     "wbw": 36,
     "translation": 29,
-    "purport": 202,
-    "size": 282
+    "purport": 414,
+    "size": 494
 }, {
     "chapter": 17,
     "text": [4],
@@ -5013,8 +5013,8 @@
     "sanskrit": 13,
     "wbw": 40,
     "translation": 22,
-    "purport": 143,
-    "size": 218
+    "purport": 412,
+    "size": 487
 }, {
     "chapter": 17,
     "text": [5, 6],
@@ -5056,8 +5056,8 @@
     "sanskrit": 14,
     "wbw": 41,
     "translation": 25,
-    "purport": 186,
-    "size": 266
+    "purport": 422,
+    "size": 502
 }, {
     "chapter": 17,
     "text": [11],
@@ -5154,8 +5154,8 @@
     "sanskrit": 14,
     "wbw": 39,
     "translation": 23,
-    "purport": 39,
-    "size": 115
+    "purport": 69,
+    "size": 145
 }, {
     "chapter": 17,
     "text": [22],
@@ -5172,8 +5172,8 @@
     "sanskrit": 17,
     "wbw": 38,
     "translation": 32,
-    "purport": 87,
-    "size": 174
+    "purport": 318,
+    "size": 405
 }, {
     "chapter": 17,
     "text": [24],
@@ -5208,8 +5208,8 @@
     "sanskrit": 18,
     "wbw": 45,
     "translation": 29,
-    "purport": 95,
-    "size": 187
+    "purport": 219,
+    "size": 311
 }, {
     "chapter": 18,
     "text": [1],
@@ -5217,8 +5217,8 @@
     "sanskrit": 14,
     "wbw": 35,
     "translation": 24,
-    "purport": 229,
-    "size": 302
+    "purport": 392,
+    "size": 465
 }, {
     "chapter": 18,
     "text": [2],
@@ -5325,8 +5325,8 @@
     "sanskrit": 12,
     "wbw": 31,
     "translation": 17,
-    "purport": 85,
-    "size": 145
+    "purport": 132,
+    "size": 192
 }, {
     "chapter": 18,
     "text": [14],
@@ -5615,8 +5615,8 @@
     "sanskrit": 14,
     "wbw": 30,
     "translation": 18,
-    "purport": 141,
-    "size": 203
+    "purport": 236,
+    "size": 298
 }, {
     "chapter": 18,
     "text": [47],
@@ -5624,8 +5624,8 @@
     "sanskrit": 14,
     "wbw": 37,
     "translation": 24,
-    "purport": 147,
-    "size": 222
+    "purport": 388,
+    "size": 463
 }, {
     "chapter": 18,
     "text": [48],
@@ -5633,8 +5633,8 @@
     "sanskrit": 14,
     "wbw": 37,
     "translation": 33,
-    "purport": 94,
-    "size": 178
+    "purport": 270,
+    "size": 354
 }, {
     "chapter": 18,
     "text": [49],
@@ -5669,8 +5669,8 @@
     "sanskrit": 14,
     "wbw": 34,
     "translation": 38,
-    "purport": 78,
-    "size": 164
+    "purport": 349,
+    "size": 435
 }, {
     "chapter": 18,
     "text": [55],
@@ -5678,8 +5678,8 @@
     "sanskrit": 14,
     "wbw": 33,
     "translation": 31,
-    "purport": 90,
-    "size": 168
+    "purport": 549,
+    "size": 627
 }, {
     "chapter": 18,
     "text": [56],
@@ -5741,8 +5741,8 @@
     "sanskrit": 14,
     "wbw": 30,
     "translation": 18,
-    "purport": 78,
-    "size": 140
+    "purport": 156,
+    "size": 218
 }, {
     "chapter": 18,
     "text": [63],
@@ -5750,8 +5750,8 @@
     "sanskrit": 12,
     "wbw": 29,
     "translation": 16,
-    "purport": 47,
-    "size": 104
+    "purport": 195,
+    "size": 252
 }, {
     "chapter": 18,
     "text": [64],
@@ -5768,8 +5768,8 @@
     "sanskrit": 17,
     "wbw": 38,
     "translation": 27,
-    "purport": 127,
-    "size": 209
+    "purport": 232,
+    "size": 314
 }, {
     "chapter": 18,
     "text": [66],
@@ -5777,8 +5777,8 @@
     "sanskrit": 14,
     "wbw": 33,
     "translation": 18,
-    "purport": 298,
-    "size": 363
+    "purport": 556,
+    "size": 621
 }, {
     "chapter": 18,
     "text": [67],
@@ -5820,8 +5820,8 @@
     "sanskrit": 15,
     "wbw": 32,
     "translation": 23,
-    "purport": 128,
-    "size": 198
+    "purport": 199,
+    "size": 269
 }, {
     "chapter": 18,
     "text": [72],
@@ -5838,8 +5838,8 @@
     "sanskrit": 16,
     "wbw": 39,
     "translation": 30,
-    "purport": 223,
-    "size": 308
+    "purport": 487,
+    "size": 572
 }, {
     "chapter": 18,
     "text": [74],
@@ -5856,8 +5856,8 @@
     "sanskrit": 13,
     "wbw": 33,
     "translation": 20,
-    "purport": 121,
-    "size": 187
+    "purport": 305,
+    "size": 371
 }, {
     "chapter": 18,
     "text": [76],
@@ -5883,6 +5883,6 @@
     "sanskrit": 15,
     "wbw": 39,
     "translation": 29,
-    "purport": 123,
-    "size": 206
+    "purport": 734,
+    "size": 817
 }]

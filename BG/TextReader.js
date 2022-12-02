@@ -128,6 +128,7 @@ function russianChapter(filename) {
       case 'purp':
       case 'para':
       case 'keep':
+      case 'purp-para':
       case 'verse-in-purp':
       case 'verse-small':
       case 'verse-ref': {
